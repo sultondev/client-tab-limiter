@@ -1,0 +1,16 @@
+node_modules
+dist
+.nuxt
+.output
+build
+public
+coverage
+.turbo
+/.vscode
+/*.log
+*.min.js
+yarn-error.log
+pnpm-lock.yaml
+package-lock.json
+/.idea
+/.cache
