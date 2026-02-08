@@ -1,7 +1,13 @@
-<script setup lang="ts"></script>
-
 <template>
-  <div class="">index</div>
+  <div>
+    <HeroSection />
+    <FeatureSection />
+  </div>
 </template>
 
-<style></style>
+<script setup>
+import FeatureSection from '~/components/FeatureSection.vue';
+import HeroSection from '~/components/HeroSection.vue';
+
+// Main landing page
+</script>

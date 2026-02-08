@@ -1,0 +1,50 @@
+{
+  "appName": "Tab Limiter",
+  "nav": {
+    "features": "Возможности",
+    "howItWorks": "Как работает",
+    "privacy": "Конфиденциальность",
+    "login": "Войти",
+    "getStarted": "Начать"
+  },
+  "browser": {
+    "projectBeta": "Проект Beta",
+    "docs": "Документация",
+    "limitReached": "Лимит достигнут",
+    "limitDescription": "Режим фокуса активен. Вы достигли лимита в 5 вкладок. Закройте одну, чтобы открыть другую."
+  },
+  "stats": {
+    "productivityBoost": "РОСТ ПРОДУКТИВНОСТИ",
+    "focusIncrease": "+42% Фокус"
+  },
+  "footer": {
+    "terms": "Условия",
+    "privacyPolicy": "Политика конфиденциальности",
+    "contact": "Контакты",
+    "copyright": "© { year } Tab Limiter. Создан для потока."
+  },
+  "features": {
+    "intelligentGuard": {
+      "title": "Интеллектуальная защита",
+      "description": "Блокирует открытие новых вкладок при достижении лимита."
+    },
+    "focusSchedules": {
+      "title": "Графики фокуса",
+      "description": "Строгие лимиты в рабочее время и свобода позже."
+    },
+    "privacyCentric": {
+      "title": "Ориентация на приватность",
+      "description": "Мы не отслеживаем историю. Всё работает локально."
+    }
+  },
+  "hero": {
+    "badge": "БОЛЕЕ 10 000 ПРОДУКТИВНЫХ ПОЛЬЗОВАТЕЛЕЙ",
+    "title": "Верните фокус, {highlight} за раз",
+    "titleHighlight": "одну вкладку",
+    "subtitle": "Избавьтесь от хаоса вкладок и работайте продуктивнее.",
+    "addToChrome": "Добавить в Chrome",
+    "viewDemo": "Посмотреть демо",
+    "freeForever": "Бесплатно навсегда",
+    "noTracking": "Без отслеживания данных"
+  }
+}

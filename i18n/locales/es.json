@@ -1,0 +1,50 @@
+{
+  "appName": "Tab Limiter",
+  "nav": {
+    "features": "Funciones",
+    "howItWorks": "Cómo funciona",
+    "privacy": "Privacidad",
+    "login": "Iniciar sesión",
+    "getStarted": "Comenzar"
+  },
+  "browser": {
+    "projectBeta": "Proyecto Beta",
+    "docs": "Documentación",
+    "limitReached": "Límite alcanzado",
+    "limitDescription": "Modo enfoque activo. Has alcanzado tu límite de 5 pestañas. Cierra una para abrir otra."
+  },
+  "stats": {
+    "productivityBoost": "AUMENTO DE PRODUCTIVIDAD",
+    "focusIncrease": "+42% Enfoque"
+  },
+  "footer": {
+    "terms": "Términos",
+    "privacyPolicy": "Política de privacidad",
+    "contact": "Contacto",
+    "copyright": "© { year } Tab Limiter. Diseñado para el flujo."
+  },
+  "features": {
+    "intelligentGuard": {
+      "title": "Guardia inteligente",
+      "description": "Evita que se abran nuevas pestañas cuando alcanzas tu límite personalizado, obligándote a priorizar."
+    },
+    "focusSchedules": {
+      "title": "Horarios de enfoque",
+      "description": "Establece límites estrictos durante el trabajo y relájalos para navegar más tarde."
+    },
+    "privacyCentric": {
+      "title": "Centrado en la privacidad",
+      "description": "Nunca rastreamos tu historial. Todo funciona localmente en tu dispositivo."
+    }
+  },
+  "hero": {
+    "badge": "ÚNETE A MÁS DE 10,000 USUARIOS PRODUCTIVOS",
+    "title": "Recupera tu enfoque, {highlight} a la vez",
+    "titleHighlight": "una pestaña",
+    "subtitle": "Evita que el exceso de pestañas destruya tu productividad. Tab Limiter ayuda a desarrolladores y estudiantes a mantenerse concentrados.",
+    "addToChrome": "Añadir a Chrome",
+    "viewDemo": "Ver demo",
+    "freeForever": "Gratis para siempre",
+    "noTracking": "Sin rastreo de datos"
+  }
+}

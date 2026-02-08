@@ -7,7 +7,7 @@
     "dev": "nuxt dev",
     "lint:fix": "eslint . --ext .js,.vue --fix",
     "lint:beauty": "prettier --write .",
-    "lint:full":"eslint . --ext .js,.vue && prettier --write .",
+    "lint:full": "eslint . --ext .js,.vue && prettier --write .",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",

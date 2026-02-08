@@ -1,0 +1,50 @@
+{
+  "appName": "Tab Limiter",
+  "nav": {
+    "features": "Funktionen",
+    "howItWorks": "So funktioniert es",
+    "privacy": "Datenschutz",
+    "login": "Anmelden",
+    "getStarted": "Loslegen"
+  },
+  "browser": {
+    "projectBeta": "Projekt Beta",
+    "docs": "Dokumentation",
+    "limitReached": "Limit erreicht",
+    "limitDescription": "Fokusmodus aktiv. Du hast dein Tab-Limit von 5 erreicht."
+  },
+  "stats": {
+    "productivityBoost": "PRODUKTIVITÄTSSTEIGERUNG",
+    "focusIncrease": "+42% Fokus"
+  },
+  "footer": {
+    "terms": "Bedingungen",
+    "privacyPolicy": "Datenschutzerklärung",
+    "contact": "Kontakt",
+    "copyright": "© { year } Tab Limiter. Für Flow gebaut."
+  },
+  "features": {
+    "intelligentGuard": {
+      "title": "Intelligenter Wächter",
+      "description": "Verhindert neue Tabs nach Erreichen des Limits."
+    },
+    "focusSchedules": {
+      "title": "Fokus-Zeitpläne",
+      "description": "Strenge Limits bei der Arbeit, lockerer danach."
+    },
+    "privacyCentric": {
+      "title": "Datenschutzorientiert",
+      "description": "Keine Verlaufserfassung. Alles läuft lokal."
+    }
+  },
+  "hero": {
+    "badge": "ÜBER 10.000 PRODUKTIVE NUTZER",
+    "title": "Hol dir deinen Fokus zurück – {highlight} nach dem anderen",
+    "titleHighlight": "ein Tab",
+    "subtitle": "Beende Tab-Chaos und steigere deine Produktivität.",
+    "addToChrome": "Zu Chrome hinzufügen",
+    "viewDemo": "Demo ansehen",
+    "freeForever": "Für immer kostenlos",
+    "noTracking": "Kein Tracking"
+  }
+}

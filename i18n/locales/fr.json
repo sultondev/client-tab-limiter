@@ -1,0 +1,50 @@
+{
+  "appName": "Tab Limiter",
+  "nav": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "privacy": "Confidentialité",
+    "login": "Connexion",
+    "getStarted": "Commencer"
+  },
+  "browser": {
+    "projectBeta": "Projet Beta",
+    "docs": "Documentation",
+    "limitReached": "Limite atteinte",
+    "limitDescription": "Mode concentration actif. Vous avez atteint la limite de 5 onglets."
+  },
+  "stats": {
+    "productivityBoost": "GAIN DE PRODUCTIVITÉ",
+    "focusIncrease": "+42% Concentration"
+  },
+  "footer": {
+    "terms": "Conditions",
+    "privacyPolicy": "Politique de confidentialité",
+    "contact": "Contact",
+    "copyright": "© { year } Tab Limiter. Conçu pour le flow."
+  },
+  "features": {
+    "intelligentGuard": {
+      "title": "Garde intelligent",
+      "description": "Empêche l’ouverture de nouveaux onglets après avoir atteint la limite."
+    },
+    "focusSchedules": {
+      "title": "Plannings de concentration",
+      "description": "Limites strictes au travail, plus souples ensuite."
+    },
+    "privacyCentric": {
+      "title": "Respect de la vie privée",
+      "description": "Aucun suivi. Tout fonctionne localement."
+    }
+  },
+  "hero": {
+    "badge": "REJOIGNEZ PLUS DE 10 000 UTILISATEURS PRODUCTIFS",
+    "title": "Retrouvez votre concentration, {highlight} à la fois",
+    "titleHighlight": "un onglet",
+    "subtitle": "Évitez la surcharge d’onglets et restez productif.",
+    "addToChrome": "Ajouter à Chrome",
+    "viewDemo": "Voir la démo",
+    "freeForever": "Gratuit à vie",
+    "noTracking": "Aucun suivi de données"
+  }
+}

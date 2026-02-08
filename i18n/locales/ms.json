@@ -1,0 +1,50 @@
+{
+  "appName": "Tab Limiter",
+  "nav": {
+    "features": "Ciri",
+    "howItWorks": "Cara ia berfungsi",
+    "privacy": "Privasi",
+    "login": "Log masuk",
+    "getStarted": "Mula"
+  },
+  "browser": {
+    "projectBeta": "Projek Beta",
+    "docs": "Dokumentasi",
+    "limitReached": "Had dicapai",
+    "limitDescription": "Mod fokus aktif. Anda telah mencapai had 5 tab. Tutup satu untuk membuka yang lain."
+  },
+  "stats": {
+    "productivityBoost": "PENINGKATAN PRODUKTIVITI",
+    "focusIncrease": "+42% Fokus"
+  },
+  "footer": {
+    "terms": "Terma",
+    "privacyPolicy": "Dasar Privasi",
+    "contact": "Hubungi",
+    "copyright": "© { year } Tab Limiter. Dibina untuk fokus."
+  },
+  "features": {
+    "intelligentGuard": {
+      "title": "Pengawal Pintar",
+      "description": "Menghalang tab baharu dibuka selepas mencapai had yang ditetapkan."
+    },
+    "focusSchedules": {
+      "title": "Jadual Fokus",
+      "description": "Tetapkan had ketat semasa waktu kerja dan longgarkan kemudian."
+    },
+    "privacyCentric": {
+      "title": "Berteras Privasi",
+      "description": "Kami tidak menjejak sejarah anda. Semuanya berjalan secara tempatan."
+    }
+  },
+  "hero": {
+    "badge": "SERTAI 10,000+ PENGGUNA PRODUKTIF",
+    "title": "Kawal fokus anda, {highlight} pada satu masa",
+    "titleHighlight": "satu tab",
+    "subtitle": "Hentikan lebihan tab daripada menjejaskan produktiviti anda.",
+    "addToChrome": "Tambah ke Chrome",
+    "viewDemo": "Lihat demo",
+    "freeForever": "Percuma selamanya",
+    "noTracking": "Tiada penjejakan data"
+  }
+}

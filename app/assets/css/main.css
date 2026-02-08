@@ -1,0 +1,13 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.glass-mockup {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(19, 127, 236, 0.1);
+}
+
+.cta-shadow {
+  box-shadow: 0 10px 25px -5px rgba(19, 127, 236, 0.4);
+}

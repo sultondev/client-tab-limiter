@@ -1,0 +1,50 @@
+{
+  "appName": "Tab Limiter",
+  "nav": {
+    "features": "Imkoniyatlar",
+    "howItWorks": "Qanday ishlaydi",
+    "privacy": "Maxfiylik",
+    "login": "Kirish",
+    "getStarted": "Boshlash"
+  },
+  "browser": {
+    "projectBeta": "Beta loyiha",
+    "docs": "Hujjatlar",
+    "limitReached": "Limitga yetildi",
+    "limitDescription": "Fokus rejimi faol. Siz 5 ta tab limitiga yetdingiz. Yangi ochish uchun bittasini yoping."
+  },
+  "stats": {
+    "productivityBoost": "SAMARADORLIK OSHISHI",
+    "focusIncrease": "+42% Fokus"
+  },
+  "footer": {
+    "terms": "Shartlar",
+    "privacyPolicy": "Maxfiylik siyosati",
+    "contact": "Aloqa",
+    "copyright": "© { year } Tab Limiter. Fokus uchun yaratilgan."
+  },
+  "features": {
+    "intelligentGuard": {
+      "title": "Aqlli nazorat",
+      "description": "Limitga yetganda yangi tab ochilishini to‘xtatadi."
+    },
+    "focusSchedules": {
+      "title": "Fokus jadvali",
+      "description": "Ish vaqtida qat’iy, keyin esa erkin."
+    },
+    "privacyCentric": {
+      "title": "Maxfiylikka yo‘naltirilgan",
+      "description": "Hech qanday tarix kuzatilmaydi. Hammasi lokal ishlaydi."
+    }
+  },
+  "hero": {
+    "badge": "10 000+ SAMARALI FOYDALANUVCHI",
+    "title": "Fokusingizni qaytaring, har safar {highlight}",
+    "titleHighlight": "bitta tab",
+    "subtitle": "Ortiqcha tablar samaradorlikni pasaytirishiga yo‘l qo‘ymang.",
+    "addToChrome": "Chrome’ga qo‘shish",
+    "viewDemo": "Demo ko‘rish",
+    "freeForever": "Butunlay bepul",
+    "noTracking": "Ma’lumotlar kuzatilmaydi"
+  }
+}

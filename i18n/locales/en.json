@@ -1,0 +1,56 @@
+{
+  "appName": "Tab Limiter",
+
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How it works",
+    "privacy": "Privacy",
+    "login": "Login",
+    "getStarted": "Get Started"
+  },
+
+  "browser": {
+    "projectBeta": "Project Beta",
+    "docs": "Docs",
+    "limitReached": "Limit Reached",
+    "limitDescription": "Focus mode active. You've reached your tab limit of 5. Close one to open another."
+  },
+
+  "stats": {
+    "productivityBoost": "PRODUCTIVITY BOOST",
+    "focusIncrease": "+42% Focus"
+  },
+
+  "footer": {
+    "terms": "Terms",
+    "privacyPolicy": "Privacy Policy",
+    "contact": "Contact",
+    "copyright": "© { year } Tab Limiter. Built for flow."
+  },
+
+  "features": {
+    "intelligentGuard": {
+      "title": "Intelligent Guard",
+      "description": "Prevents new tabs from opening once you reach your custom limit, forcing you to prioritize."
+    },
+    "focusSchedules": {
+      "title": "Focus Schedules",
+      "description": "Set strict limits during work hours and relax them for browsing sessions later in the day."
+    },
+    "privacyCentric": {
+      "title": "Privacy Centric",
+      "description": "We never track your history. Everything runs locally on your machine for 100% privacy."
+    }
+  },
+
+  "hero": {
+    "badge": "JOIN 10,000+ PRODUCTIVE USERS",
+    "title": "Reclaim your focus, {highlight} at a time",
+    "titleHighlight": "one tab",
+    "subtitle": "Stop tab-overload from killing your productivity. Tab Limiter helps developers and students stay in the flow by intelligently managing browser clutter.",
+    "addToChrome": "Add to Chrome",
+    "viewDemo": "View Demo",
+    "freeForever": "Free forever",
+    "noTracking": "No data tracking"
+  }
+}

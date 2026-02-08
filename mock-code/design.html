@@ -1,0 +1,347 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Tab Limiter - Process &amp; Privacy</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#137fec',
+              'background-light': '#f6f7f8',
+              'background-dark': '#101922',
+            },
+            fontFamily: {
+              display: ['Inter', 'sans-serif'],
+            },
+            borderRadius: {
+              DEFAULT: '0.25rem',
+              lg: '0.5rem',
+              xl: '0.75rem',
+              full: '9999px',
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24;
+      }
+    </style>
+  </head>
+  <body class="bg-background-light dark:bg-background-dark font-display text-[#111418] antialiased">
+    <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+      <!-- Header / Navigation -->
+      <header
+        class="flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/10 px-6 lg:px-40 py-4 bg-white/80 backdrop-blur-md sticky top-0 z-50"
+      >
+        <div class="flex items-center gap-3">
+          <div class="bg-primary p-1.5 rounded-lg text-white">
+            <span class="material-symbols-outlined block text-[24px]">tab</span>
+          </div>
+          <h2 class="text-[#111418] text-xl font-bold leading-tight tracking-tight">Tab Limiter</h2>
+        </div>
+        <div class="flex flex-1 justify-end gap-8 items-center">
+          <nav class="hidden md:flex items-center gap-8">
+            <a
+              class="text-[#111418] hover:text-primary transition-colors text-sm font-semibold"
+              href="#"
+              >Features</a
+            >
+            <a
+              class="text-[#111418] hover:text-primary transition-colors text-sm font-semibold"
+              href="#"
+              >Process</a
+            >
+            <a
+              class="text-[#111418] hover:text-primary transition-colors text-sm font-semibold"
+              href="#"
+              >Privacy</a
+            >
+          </nav>
+          <button
+            class="flex min-w-[120px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-5 bg-primary text-white text-sm font-bold shadow-md hover:bg-primary/90 transition-all"
+          >
+            Add to Chrome
+          </button>
+        </div>
+      </header>
+      <main class="layout-container flex h-full grow flex-col items-center">
+        <div class="max-w-[1024px] w-full px-6 py-16 lg:py-24 space-y-24">
+          <!-- How It Works Section -->
+          <section class="space-y-12" id="how-it-works">
+            <div class="flex flex-col items-center text-center gap-4 max-w-2xl mx-auto">
+              <span
+                class="px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider"
+                >The Process</span
+              >
+              <h2 class="text-[#111418] text-4xl font-extrabold tracking-tight lg:text-5xl">
+                Simplicity by design.
+              </h2>
+              <p class="text-[#617589] text-lg leading-relaxed">
+                Boost your productivity in three simple steps. We handle the clutter so you can
+                focus on what matters.
+              </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <!-- Step 1 -->
+              <div
+                class="group flex flex-col items-center text-center gap-6 p-8 rounded-2xl border border-primary/5 bg-white hover:border-primary/20 hover:shadow-xl hover:shadow-primary/5 transition-all"
+              >
+                <div
+                  class="size-16 rounded-2xl bg-primary/5 text-primary flex items-center justify-center group-hover:scale-110 transition-transform"
+                >
+                  <span class="material-symbols-outlined text-4xl">download_for_offline</span>
+                </div>
+                <div class="space-y-2">
+                  <h3 class="text-xl font-bold text-[#111418]">Install</h3>
+                  <p class="text-[#617589] leading-relaxed">
+                    Add to your browser in one click from the Chrome Web Store.
+                  </p>
+                </div>
+              </div>
+              <!-- Step 2 -->
+              <div
+                class="group flex flex-col items-center text-center gap-6 p-8 rounded-2xl border border-primary/5 bg-white hover:border-primary/20 hover:shadow-xl hover:shadow-primary/5 transition-all"
+              >
+                <div
+                  class="size-16 rounded-2xl bg-primary/5 text-primary flex items-center justify-center group-hover:scale-110 transition-transform"
+                >
+                  <span class="material-symbols-outlined text-4xl">tune</span>
+                </div>
+                <div class="space-y-2">
+                  <h3 class="text-xl font-bold text-[#111418]">Set Limits</h3>
+                  <p class="text-[#617589] leading-relaxed">
+                    Choose your maximum tabs per window or category-based rules.
+                  </p>
+                </div>
+              </div>
+              <!-- Step 3 -->
+              <div
+                class="group flex flex-col items-center text-center gap-6 p-8 rounded-2xl border border-primary/5 bg-white hover:border-primary/20 hover:shadow-xl hover:shadow-primary/5 transition-all"
+              >
+                <div
+                  class="size-16 rounded-2xl bg-primary/5 text-primary flex items-center justify-center group-hover:scale-110 transition-transform"
+                >
+                  <span class="material-symbols-outlined text-4xl">center_focus_strong</span>
+                </div>
+                <div class="space-y-2">
+                  <h3 class="text-xl font-bold text-[#111418]">Stay Focused</h3>
+                  <p class="text-[#617589] leading-relaxed">
+                    The extension manages the rest, keeping your browser distraction-free.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Privacy & Security Section -->
+          <section
+            class="p-1 rounded-3xl bg-gradient-to-br from-primary/10 via-transparent to-primary/10"
+            id="privacy"
+          >
+            <div
+              class="bg-white rounded-[1.4rem] p-8 md:p-16 flex flex-col lg:flex-row items-center gap-12 shadow-sm border border-white"
+            >
+              <div class="flex-1 space-y-8">
+                <div class="space-y-4">
+                  <div class="flex items-center gap-2 text-primary">
+                    <span class="material-symbols-outlined text-3xl">verified_user</span>
+                    <span class="text-sm font-bold uppercase tracking-widest">Privacy First</span>
+                  </div>
+                  <h2 class="text-3xl font-extrabold text-[#111418] lg:text-4xl tracking-tight">
+                    Built with your security in mind
+                  </h2>
+                  <p class="text-[#617589] text-lg">
+                    We believe productivity shouldn't come at the cost of your personal data. That's
+                    why Tab Limiter is built to be invisible and secure.
+                  </p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div
+                    class="flex items-center gap-3 p-4 rounded-xl bg-background-light border border-primary/5"
+                  >
+                    <span class="material-symbols-outlined text-primary">storage</span>
+                    <span class="font-medium">Local-only storage</span>
+                  </div>
+                  <div
+                    class="flex items-center gap-3 p-4 rounded-xl bg-background-light border border-primary/5"
+                  >
+                    <span class="material-symbols-outlined text-primary">visibility_off</span>
+                    <span class="font-medium">No data collection</span>
+                  </div>
+                  <div
+                    class="flex items-center gap-3 p-4 rounded-xl bg-background-light border border-primary/5"
+                  >
+                    <span class="material-symbols-outlined text-primary">code</span>
+                    <span class="font-medium">Open Source</span>
+                  </div>
+                  <div
+                    class="flex items-center gap-3 p-4 rounded-xl bg-background-light border border-primary/5"
+                  >
+                    <span class="material-symbols-outlined text-primary">encrypted</span>
+                    <span class="font-medium">No tracking scripts</span>
+                  </div>
+                </div>
+                <button
+                  class="flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all underline underline-offset-4"
+                >
+                  Read our full Privacy Policy
+                  <span class="material-symbols-outlined">arrow_forward</span>
+                </button>
+              </div>
+              <div class="flex-1 w-full max-w-md">
+                <div
+                  class="relative aspect-square rounded-3xl overflow-hidden bg-primary/5 flex items-center justify-center p-12"
+                >
+                  <div
+                    class="absolute inset-0 opacity-10"
+                    style="
+                      background-image: radial-gradient(
+                        circle at 2px 2px,
+                        #137fec 1px,
+                        transparent 0
+                      );
+                      background-size: 24px 24px;
+                    "
+                  ></div>
+                  <div
+                    class="relative size-full rounded-2xl bg-white shadow-2xl flex items-center justify-center"
+                  >
+                    <span class="material-symbols-outlined text-[120px] text-primary/20"
+                      >shield_lock</span
+                    >
+                    <div
+                      class="absolute -bottom-4 -right-4 size-24 bg-primary rounded-2xl flex items-center justify-center text-white shadow-xl rotate-12"
+                    >
+                      <span class="material-symbols-outlined text-4xl">key</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Final CTA Section -->
+          <section
+            class="relative overflow-hidden rounded-[2rem] bg-[#111418] text-white p-12 lg:p-20"
+          >
+            <!-- Background Decor -->
+            <div
+              class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 size-96 rounded-full bg-primary/20 blur-[100px]"
+            ></div>
+            <div
+              class="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 size-96 rounded-full bg-primary/10 blur-[80px]"
+            ></div>
+            <div
+              class="relative z-10 flex flex-col items-center text-center gap-8 max-w-2xl mx-auto"
+            >
+              <h2 class="text-4xl lg:text-5xl font-black tracking-tight leading-tight">
+                Ready to reclaim your focus today?
+              </h2>
+              <p class="text-gray-400 text-lg leading-relaxed">
+                Join over 25,000+ power users who have mastered their browser clutter and improved
+                their daily workflow.
+              </p>
+              <div class="flex flex-col sm:flex-row items-center gap-4 w-full justify-center pt-4">
+                <button
+                  class="flex w-full sm:w-auto min-w-[240px] cursor-pointer items-center justify-center gap-3 rounded-xl h-14 px-8 bg-primary text-white text-lg font-bold shadow-lg shadow-primary/20 hover:translate-y-[-2px] hover:shadow-primary/40 transition-all"
+                >
+                  <img
+                    alt="Chrome Logo"
+                    class="size-6"
+                    data-alt="Chrome browser logo icon"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQdGcw9Vk336ukj-dw6YmlIAPHsIHIiSCZ1uZeMXccrdN2cnrlLg3-qbhxj_0VzmalOibZhY_2N1ao3_DB-XhgIf8vR8WxB5CEuJa_rmtG8RZ4u5MKMjQGYopvKYogcb_d91wociuZurBbDvMhDnQpo7E5Pgpz8Ks1g8vVolW65k4x0uZD8nuztpOaWgcarlotweOVy0t3kbOo8eD5TfIe8gb-Ir--Y9Mvvg3IGkGBWAA85ecWb4PKjPuUdcMIfCZL5mRFd9EChu4"
+                  />
+                  Add to Chrome
+                </button>
+                <span class="text-gray-500 text-sm font-medium"
+                  >Free forever. No account needed.</span
+                >
+              </div>
+              <div class="flex items-center gap-6 pt-4">
+                <div class="flex -space-x-3">
+                  <img
+                    alt="User"
+                    class="size-10 rounded-full border-2 border-[#111418]"
+                    data-alt="Satisfied user profile photo 1"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4RlZtFZaXpy7Y1G5ujyL6v0CmySJoA8IimX0C29ws1lszRCXEwjaPPNCV7zyOmtI72DwOU9KodZHG2IjzP72SXyZnxfjor2d7wp8UC_zmfUfZhoPId0K9RN7lju8auCApFdYKfDrfYnZflKWT4V6px1F6FtFvbSmIcqob-hYgpmhAwpFGwO3o3ym1PAYVdTiiC3YaDsq8yOsE34KxM6RJVzaaoYbhDM2qQ-8mtR3vheCbM19ZMQrSdyDvTZPDmUHlKlr5vgRmTKw"
+                  />
+                  <img
+                    alt="User"
+                    class="size-10 rounded-full border-2 border-[#111418]"
+                    data-alt="Satisfied user profile photo 2"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZyTOxdgoouIDSCFieNMHSYL4SKAgTa6ZXXqGOfyst0mx3P-epDWmRnAJ-tMOetu-D3iYJH2N9czXD3nwEjGEXy20qaQvJs0Sz52JwneyyTqCq0U2NAt54DrJ9z-D8bAaFR0E1c7pLyie35uDjBCRGUApuiIB7ANeoFbVY3GscbkCLPE0a0v7MQIIyqKj_94s4-trSSof58c2vtl0Ol1i0N600LlCBXkBwatrkHDquF4HEH9XhRIB4wnmdxFTslFTx5Ua_R_J90qY"
+                  />
+                  <img
+                    alt="User"
+                    class="size-10 rounded-full border-2 border-[#111418]"
+                    data-alt="Satisfied user profile photo 3"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs6fpL8YaCO93Lm-Y-9-XqfgqBJRYjt33tGq8g5P6OWW0jKVWoG9EdxYQsFNaGKlrlljL8-pnmecl86g3irCpcdGhaSvUrSddBlflntGBowyN81-rqXjxPLOpUrEdsT3WK-iclTeRRN4Ed-gTNBapkLydAukpXyaKXIIdGkNazkE47vMLLhF8-FueOptUtB9Eoa0y9PuDAG1fonBBHIb6yb2Blje94ZgMNwo_1mWPw3D92jnv0hGz9eQlWynSmZ7RrL10uuJLSofY"
+                  />
+                  <div
+                    class="size-10 rounded-full border-2 border-[#111418] bg-primary flex items-center justify-center text-[10px] font-bold"
+                  >
+                    +25k
+                  </div>
+                </div>
+                <div class="text-left">
+                  <div class="flex text-yellow-500 text-sm">
+                    <span class="material-symbols-outlined fill-1">star</span>
+                    <span class="material-symbols-outlined fill-1">star</span>
+                    <span class="material-symbols-outlined fill-1">star</span>
+                    <span class="material-symbols-outlined fill-1">star</span>
+                    <span class="material-symbols-outlined fill-1">star</span>
+                  </div>
+                  <p class="text-xs text-gray-500 font-semibold uppercase tracking-wider">
+                    Top Rated Productivity Tool
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!-- Footer -->
+      <footer class="bg-white border-t border-primary/5 py-12 px-6 lg:px-40">
+        <div
+          class="max-w-[1024px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8"
+        >
+          <div class="flex items-center gap-3">
+            <div class="bg-primary/10 p-1 rounded text-primary">
+              <span class="material-symbols-outlined block text-[20px]">tab</span>
+            </div>
+            <span class="font-bold text-[#111418]">Tab Limiter</span>
+          </div>
+          <div class="flex gap-8 text-sm text-[#617589] font-medium">
+            <a class="hover:text-primary transition-colors" href="#">Twitter</a>
+            <a class="hover:text-primary transition-colors" href="#">GitHub</a>
+            <a class="hover:text-primary transition-colors" href="#">Privacy</a>
+            <a class="hover:text-primary transition-colors" href="#">Support</a>
+          </div>
+          <p class="text-sm text-[#617589]">© 2024 Tab Limiter. Made for focus.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
