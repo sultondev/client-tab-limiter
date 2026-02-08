@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import FeatureCard from './FeatureCard.vue';
-const {t} = useI18n();
-// Features section showcasing key product benefits
+  import FeatureCard from './FeatureCard.vue';
+  const { t } = useI18n();
+  // Features section showcasing key product benefits
 </script>
 
 <template>

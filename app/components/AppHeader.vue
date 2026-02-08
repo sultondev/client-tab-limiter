@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import LanguageSwitcher from "./LanguageSwitcher.vue";
+  import LanguageSwitcher from './LanguageSwitcher.vue';
 
-// Header component with navigation
-const {t} = useI18n();
+  // Header component with navigation
+  const { t } = useI18n();
 </script>
 
 <template>
@@ -11,9 +11,7 @@ const {t} = useI18n();
   >
     <div class="mx-auto flex max-w-[1200px] items-center justify-between px-6 py-4 md:px-10">
       <div class="flex items-center gap-3">
-        <div
-          class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white"
-        >
+        <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
           <span class="material-symbols-outlined text-2xl">tab_unselected</span>
         </div>
         <h2 class="text-base font-bold tracking-tight text-primary">{{ t('appName') }}</h2>

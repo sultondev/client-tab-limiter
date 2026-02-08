@@ -7,5 +7,5 @@
 </template>
 
 <script setup>
-// Layout for the Tab Limiter landing page
+  // Layout for the Tab Limiter landing page
 </script>

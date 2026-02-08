@@ -6,8 +6,8 @@
 </template>
 
 <script setup>
-import FeatureSection from '~/components/FeatureSection.vue';
-import HeroSection from '~/components/HeroSection.vue';
+  import FeatureSection from '~/components/FeatureSection.vue';
+  import HeroSection from '~/components/HeroSection.vue';
 
-// Main landing page
+  // Main landing page
 </script>

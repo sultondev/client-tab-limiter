@@ -1,11 +1,11 @@
 // tailwindcss.config.ts
-import type { Config } from 'tailwindcss'
-import colors from 'tailwindcss/colors'
+import type { Config } from 'tailwindcss';
+import colors from 'tailwindcss/colors';
 
 export default <Partial<Config>>{
   darkMode: 'class',
   theme: {
-   extend: {
+    extend: {
       colors: {
         primary: '#137fec',
         'background-light': '#f6f7f8',
@@ -18,8 +18,8 @@ export default <Partial<Config>>{
         DEFAULT: '0.25rem',
         lg: '0.5rem',
         xl: '0.75rem',
-        full: '9999px'
+        full: '9999px',
       },
     },
   },
-}
+};

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-// Hero section with main CTA
-const {t} = useI18n();
+  // Hero section with main CTA
+  const { t } = useI18n();
 </script>
 
 <template>
@@ -23,14 +23,12 @@ const {t} = useI18n();
             <i18n-t keypath="hero.title" tag="span">
               <template #highlight>
                 <span class="text-primary">
-                  {{ $t("hero.titleHighlight") }}
+                  {{ $t('hero.titleHighlight') }}
                 </span>
               </template>
             </i18n-t>
           </h1>
-          <p
-            class="max-w-[540px] text-lg font-medium leading-relaxed text-[#617589] lg:text-base"
-          >
+          <p class="max-w-[540px] text-lg font-medium leading-relaxed text-[#617589] lg:text-base">
             {{ t('hero.subtitle') }}
           </p>
         </div>
@@ -58,7 +56,7 @@ const {t} = useI18n();
           </div>
         </div>
       </div>
-      
+
       <!-- Right Visual: Browser Mockup -->
       <BrowserMockup />
     </div>

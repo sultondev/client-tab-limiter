@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   ],
   tailwindcss: {
     exposeConfig: true,
-    config: ['./tailwind.config.ts']
+    config: ['./tailwind.config.ts'],
   },
   i18n: {
     locales: [
@@ -34,21 +34,22 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { 
-          name: 'description', 
-          content: 'Stop tab-overload from killing your productivity. Tab Limiter helps developers and students stay in the flow by intelligently managing browser clutter.' 
-        }
+        {
+          name: 'description',
+          content:
+            'Stop tab-overload from killing your productivity. Tab Limiter helps developers and students stay in the flow by intelligently managing browser clutter.',
+        },
       ],
       link: [
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap'
+          href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap',
         },
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap'
-        }
-      ]
-    }
-  }
+          href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap',
+        },
+      ],
+    },
+  },
 });

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const currentYear = new Date().getFullYear();
-const {t} = useI18n();
+  const currentYear = new Date().getFullYear();
+  const { t } = useI18n();
 </script>
 
 <template>
@@ -23,12 +23,14 @@ const {t} = useI18n();
           {{ t('footer.contact') }}
         </a>
       </div>
-      <p class="text-sm text-[#617589]">{{ t('footer.copyright', {year: currentYear}) }}</p>
+      <p class="text-sm text-[#617589]">{{ t('footer.copyright', { year: currentYear }) }}</p>
     </div>
 
     <div class="text-center text-sm text-[#617589]">
-        Developed by <a href="https://sulton.dev/" target="_blank" class="text-green-500 hover:underline">sultondev</a>
+      Developed by
+      <a href="https://sulton.dev/" target="_blank" class="text-green-500 hover:underline"
+        >sultondev</a
+      >
     </div>
-    </footer>
+  </footer>
 </template>
-

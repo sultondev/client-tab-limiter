@@ -8,7 +8,10 @@
     >
       <span class="material-symbols-outlined text-lg">language</span>
       <span class="hidden md:inline">{{ currentLanguage.name }}</span>
-      <span class="material-symbols-outlined text-sm transition-transform" :class="{ 'rotate-180': isOpen }">
+      <span
+        class="material-symbols-outlined text-sm transition-transform"
+        :class="{ 'rotate-180': isOpen }"
+      >
         expand_more
       </span>
     </button>
@@ -33,7 +36,7 @@
             class="flex w-full items-center gap-3 px-4 py-2.5 text-sm hover:bg-primary/10 transition-colors"
             :class="{
               'bg-primary/5 text-primary font-semibold': currentLocale === lang.code,
-              'text-[#617589]': currentLocale !== lang.code
+              'text-[#617589]': currentLocale !== lang.code,
             }"
             role="menuitem"
             @click="switchLanguage(lang.code)"
@@ -54,51 +57,51 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+  import { ref, computed, onMounted, onUnmounted } from 'vue';
 
-const { locale, setLocale } = useI18n()
+  const { locale, setLocale } = useI18n();
 
-const isOpen = ref(false)
-const dropdownRef = ref(null)
+  const isOpen = ref(false);
+  const dropdownRef = ref(null);
 
-// Language options with flags
-const languages = computed(() => [
-  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-  { code: 'en', name: 'English', flag: '🇬🇧' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
-  { code: 'fr', name: 'Français', flag: '🇫🇷' },
-  { code: 'ms', name: 'Bahasa Melayu', flag: '🇲🇾' },
-  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
-  { code: 'uz', name: 'O‘zbekcha', flag: '🇺🇿' },
-  { code: 'zh', name: '中文', flag: '🇨🇳' },
-])
-const currentLocale = computed(() => locale.value)
+  // Language options with flags
+  const languages = computed(() => [
+    { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+    { code: 'en', name: 'English', flag: '🇬🇧' },
+    { code: 'es', name: 'Español', flag: '🇪🇸' },
+    { code: 'fr', name: 'Français', flag: '🇫🇷' },
+    { code: 'ms', name: 'Bahasa Melayu', flag: '🇲🇾' },
+    { code: 'ru', name: 'Русский', flag: '🇷🇺' },
+    { code: 'uz', name: 'O‘zbekcha', flag: '🇺🇿' },
+    { code: 'zh', name: '中文', flag: '🇨🇳' },
+  ]);
+  const currentLocale = computed(() => locale.value);
 
-const currentLanguage = computed(() => {
-  return languages.value.find(lang => lang.code === currentLocale.value) || languages.value[0]
-})
+  const currentLanguage = computed(() => {
+    return languages.value.find((lang) => lang.code === currentLocale.value) || languages.value[0];
+  });
 
-const toggleDropdown = () => {
-  isOpen.value = !isOpen.value
-}
+  const toggleDropdown = () => {
+    isOpen.value = !isOpen.value;
+  };
 
-const switchLanguage = (code) => {
-  setLocale(code)
-  isOpen.value = false
-}
+  const switchLanguage = (code) => {
+    setLocale(code);
+    isOpen.value = false;
+  };
 
-// Close dropdown when clicking outside
-const handleClickOutside = (event) => {
-  if (dropdownRef.value && !dropdownRef.value.contains(event.target)) {
-    isOpen.value = false
-  }
-}
+  // Close dropdown when clicking outside
+  const handleClickOutside = (event) => {
+    if (dropdownRef.value && !dropdownRef.value.contains(event.target)) {
+      isOpen.value = false;
+    }
+  };
 
-onMounted(() => {
-  document.addEventListener('click', handleClickOutside)
-})
+  onMounted(() => {
+    document.addEventListener('click', handleClickOutside);
+  });
 
-onUnmounted(() => {
-  document.removeEventListener('click', handleClickOutside)
-})
+  onUnmounted(() => {
+    document.removeEventListener('click', handleClickOutside);
+  });
 </script>
