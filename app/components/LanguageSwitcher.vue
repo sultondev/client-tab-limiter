@@ -6,14 +6,13 @@
       aria-haspopup="true"
       @click="toggleDropdown"
     >
-      <span class="material-symbols-outlined text-lg">language</span>
+      <Icon name="mdi:web" class="text-lg" />
       <span class="hidden md:inline">{{ currentLanguage.name }}</span>
-      <span
-        class="material-symbols-outlined text-sm transition-transform"
+      <Icon
+        name="mdi:chevron-down"
+        class="text-sm transition-transform"
         :class="{ 'rotate-180': isOpen }"
-      >
-        expand_more
-      </span>
+      />
     </button>
 
     <!-- Dropdown Menu -->

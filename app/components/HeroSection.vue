@@ -13,7 +13,7 @@
         <div
           class="inline-flex items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-bold text-primary"
         >
-          <span class="material-symbols-outlined text-sm">bolt</span>
+          <Icon name="mdi:lightning-bolt" class="text-sm" />
           {{ t('hero.badge') }}
         </div>
         <div class="flex flex-col gap-4">
@@ -36,7 +36,7 @@
           <button
             class="cta-shadow flex min-w-[200px] items-center justify-center gap-3 rounded-xl bg-primary px-8 py-5 text-lg font-bold text-white transition-transform hover:scale-[1.02] active:scale-[0.98]"
           >
-            <span class="material-symbols-outlined">extension</span>
+            <Icon name="mdi:puzzle" />
             {{ t('hero.addToChrome') }}
           </button>
           <!-- <button
@@ -47,11 +47,11 @@
         </div>
         <div class="flex items-center gap-6 pt-4 text-[#617589]">
           <div class="flex items-center gap-2">
-            <span class="material-symbols-outlined text-green-500">check_circle</span>
+            <Icon name="mdi:check-circle" class="text-green-500 text-xl" />
             <span class="text-sm font-medium">{{ t('hero.freeForever') }}</span>
           </div>
           <div class="flex items-center gap-2">
-            <span class="material-symbols-outlined text-green-500">check_circle</span>
+            <Icon name="mdi:check-circle" class="text-green-500 text-xl" />
             <span class="text-sm font-medium">{{ t('hero.noTracking') }}</span>
           </div>
         </div>

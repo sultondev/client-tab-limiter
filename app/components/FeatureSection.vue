@@ -9,17 +9,17 @@
     <div class="mx-auto max-w-[1200px] px-6 md:px-10">
       <div class="grid grid-cols-1 gap-12 md:grid-cols-3">
         <FeatureCard
-          icon="auto_mode"
+          icon-name="mdi:auto-mode"
           :title="t('features.intelligentGuard.title')"
           :description="t('features.intelligentGuard.description')"
         />
         <FeatureCard
-          icon="schedule"
+          icon-name="mdi:clock-outline"
           :title="t('features.focusSchedules.title')"
           :description="t('features.focusSchedules.description')"
         />
         <FeatureCard
-          icon="security"
+          icon-name="mdi:shield-lock"
           :title="t('features.privacyCentric.title')"
           :description="t('features.privacyCentric.description')"
         />

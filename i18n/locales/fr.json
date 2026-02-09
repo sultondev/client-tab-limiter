@@ -46,5 +46,42 @@
     "viewDemo": "Voir la démo",
     "freeForever": "Gratuit à vie",
     "noTracking": "Aucun suivi de données"
+  },
+
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous répondons généralement sous 24 heures. Une question ou besoin d’aide technique avec vos onglets ? Nous sommes là pour vous.",
+
+    "sidebar": {
+      "general": {
+        "title": "Demandes générales",
+        "description": "Des questions sur les tarifs ou les licences d’équipe ? Envie de dire bonjour ?"
+      },
+      "support": {
+        "title": "Support technique",
+        "description": "Des problèmes de synchronisation ou de mémoire ? Nos développeurs sont là pour aider."
+      },
+      "faq": {
+        "question": "Besoin de réponses rapides ?",
+        "link": "Consulter la documentation"
+      }
+    },
+
+    "form": {
+      "fullName": "Nom complet",
+      "fullNamePlaceholder": "Jean Dupont",
+      "email": "Adresse e-mail",
+      "emailPlaceholder": "jeanexemple.com",
+      "subject": "Sujet",
+      "subjects": {
+        "general": "Demande générale",
+        "support": "Support technique",
+        "feedback": "Retour",
+        "other": "Autre"
+      },
+      "message": "Votre message",
+      "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+      "submit": "Envoyer le message"
+    }
   }
 }

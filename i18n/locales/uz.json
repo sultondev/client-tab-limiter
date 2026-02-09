@@ -46,5 +46,41 @@
     "viewDemo": "Demo ko‘rish",
     "freeForever": "Butunlay bepul",
     "noTracking": "Ma’lumotlar kuzatilmaydi"
+  },
+  "contact": {
+    "title": "Biz bilan bog‘laning",
+    "subtitle": "Odatda 24 soat ichida javob beramiz. Savolingiz bormi yoki tablar bo‘yicha texnik yordam kerakmi?",
+
+    "sidebar": {
+      "general": {
+        "title": "Umumiy savollar",
+        "description": "Narxlar yoki jamoa litsenziyalari haqida qiziqyapsizmi? Shunchaki salom aytmoqchimisiz?"
+      },
+      "support": {
+        "title": "Texnik yordam",
+        "description": "Tab sinxronlash yoki xotira bilan muammo bormi? Yordam beramiz."
+      },
+      "faq": {
+        "question": "Tezkor javoblar kerakmi?",
+        "link": "Hujjatlarni ko‘rish"
+      }
+    },
+
+    "form": {
+      "fullName": "To‘liq ism",
+      "fullNamePlaceholder": "Ali Valiyev",
+      "email": "Email manzil",
+      "emailPlaceholder": "alimisol.com",
+      "subject": "Mavzu",
+      "subjects": {
+        "general": "Umumiy savol",
+        "support": "Texnik yordam",
+        "feedback": "Fikr-mulohaza",
+        "other": "Boshqa"
+      },
+      "message": "Xabaringiz",
+      "messagePlaceholder": "Qanday yordam bera olamiz?",
+      "submit": "Xabar yuborish"
+    }
   }
 }

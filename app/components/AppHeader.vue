@@ -12,17 +12,17 @@
     <div class="mx-auto flex max-w-[1200px] items-center justify-between px-6 py-4 md:px-10">
       <div class="flex items-center gap-3">
         <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
-          <span class="material-symbols-outlined text-2xl">tab_unselected</span>
+          <Icon name="mdi:tab-unselected" class="text-2xl" />
         </div>
-        <h2 class="text-base font-bold tracking-tight text-primary">{{ t('appName') }}</h2>
+        <NuxtLinkLocale to="/" class="text-base font-bold tracking-tight text-primary">{{ t('appName') }}</NuxtLinkLocale>
       </div>
       <nav class="hidden flex-1 justify-center gap-10 md:flex">
-        <a
+        <NuxtLinkLocale
           class="text-sm font-semibold text-[#617589] hover:text-primary transition-colors"
-          href="#features"
+          to="/"
         >
           {{ t('nav.features') }}
-        </a>
+        </NuxtLinkLocale>
         <a
           class="text-sm font-semibold text-[#617589] hover:text-primary transition-colors"
           href="#how-it-works"
@@ -35,6 +35,12 @@
         >
           {{ t('nav.privacy') }}
         </a>
+        <NuxtLinkLocale
+          to="/contact"
+          class="text-sm font-semibold text-[#617589] hover:text-primary transition-colors"
+        >
+          {{ t('footer.contact') }}
+        </NuxtLinkLocale>
       </nav>
       <div class="flex items-center gap-4">
         <LanguageSwitcher />

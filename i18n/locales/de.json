@@ -46,5 +46,41 @@
     "viewDemo": "Demo ansehen",
     "freeForever": "Für immer kostenlos",
     "noTracking": "Kein Tracking"
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Wir antworten in der Regel innerhalb von 24 Stunden. Haben Sie Fragen oder benötigen technische Hilfe mit Ihren Tabs?",
+
+    "sidebar": {
+      "general": {
+        "title": "Allgemeine Anfragen",
+        "description": "Fragen zu Preisen oder Team-Lizenzen? Möchten Sie einfach Hallo sagen?"
+      },
+      "support": {
+        "title": "Technischer Support",
+        "description": "Probleme mit Tab-Synchronisierung oder Speicherverbrauch? Unser Team hilft gerne."
+      },
+      "faq": {
+        "question": "Suchen Sie schnelle Antworten?",
+        "link": "Zur Dokumentation"
+      }
+    },
+
+    "form": {
+      "fullName": "Vollständiger Name",
+      "fullNamePlaceholder": "Max Mustermann",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "maxbeispiel.de",
+      "subject": "Betreff",
+      "subjects": {
+        "general": "Allgemeine Anfrage",
+        "support": "Technischer Support",
+        "feedback": "Feedback",
+        "other": "Sonstiges"
+      },
+      "message": "Ihre Nachricht",
+      "messagePlaceholder": "Wie können wir helfen?",
+      "submit": "Nachricht senden"
+    }
   }
 }

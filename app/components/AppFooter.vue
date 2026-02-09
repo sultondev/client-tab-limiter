@@ -9,7 +9,7 @@
       class="mx-auto mb-6 flex max-w-[1200px] flex-col items-center justify-between gap-6 px-6 md:flex-row md:px-10"
     >
       <div class="flex items-center gap-2">
-        <span class="material-symbols-outlined text-primary">tab_unselected</span>
+        <Icon name="mdi:tab-unselected" class="text-primary text-2xl" />
         <span class="font-bold text-[#111418] dark:text-white">{{ t('appName') }}</span>
       </div>
       <div class="flex gap-8">

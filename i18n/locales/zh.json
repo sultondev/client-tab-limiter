@@ -46,5 +46,41 @@
     "viewDemo": "查看演示",
     "freeForever": "永久免费",
     "noTracking": "不进行数据追踪"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "我们通常会在 24 小时内回复。如有功能问题或需要标签页相关的技术支持，我们随时为你服务。",
+
+    "sidebar": {
+      "general": {
+        "title": "一般咨询",
+        "description": "想了解定价或团队许可？或者只是想打个招呼？"
+      },
+      "support": {
+        "title": "技术支持",
+        "description": "遇到标签同步或内存使用问题？我们的开发者可以帮你解决。"
+      },
+      "faq": {
+        "question": "需要快速答案？",
+        "link": "查看文档"
+      }
+    },
+
+    "form": {
+      "fullName": "姓名",
+      "fullNamePlaceholder": "张伟",
+      "email": "电子邮箱",
+      "emailPlaceholder": "zhangexample.com",
+      "subject": "主题",
+      "subjects": {
+        "general": "一般咨询",
+        "support": "技术支持",
+        "feedback": "反馈",
+        "other": "其他"
+      },
+      "message": "你的留言",
+      "messagePlaceholder": "我们如何帮助你？",
+      "submit": "发送消息"
+    }
   }
 }

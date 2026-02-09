@@ -46,5 +46,42 @@
     "viewDemo": "Ver demo",
     "freeForever": "Gratis para siempre",
     "noTracking": "Sin rastreo de datos"
+  },
+
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Normalmente respondemos en 24 horas. ¿Tienes alguna pregunta o necesitas ayuda técnica con tus pestañas? Estamos aquí para ayudarte.",
+
+    "sidebar": {
+      "general": {
+        "title": "Consultas generales",
+        "description": "¿Tienes preguntas sobre precios o licencias de equipo? ¿Solo quieres saludar?"
+      },
+      "support": {
+        "title": "Soporte técnico",
+        "description": "¿Problemas con la sincronización de pestañas o el uso de memoria? Nuestro equipo puede ayudarte."
+      },
+      "faq": {
+        "question": "¿Buscas respuestas rápidas?",
+        "link": "Consulta nuestra documentación"
+      }
+    },
+
+    "form": {
+      "fullName": "Nombre completo",
+      "fullNamePlaceholder": "Juan Pérez",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "juanejemplo.com",
+      "subject": "Asunto",
+      "subjects": {
+        "general": "Consulta general",
+        "support": "Soporte técnico",
+        "feedback": "Comentarios",
+        "other": "Otro"
+      },
+      "message": "Tu mensaje",
+      "messagePlaceholder": "¿Cómo podemos ayudarte?",
+      "submit": "Enviar mensaje"
+    }
   }
 }

@@ -46,5 +46,42 @@
     "viewDemo": "Lihat demo",
     "freeForever": "Percuma selamanya",
     "noTracking": "Tiada penjejakan data"
+  },
+
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Kami biasanya membalas dalam masa 24 jam. Ada soalan atau perlukan bantuan teknikal dengan tab anda? Kami sedia membantu.",
+
+    "sidebar": {
+      "general": {
+        "title": "Pertanyaan Umum",
+        "description": "Ingin tahu tentang harga atau lesen pasukan? Atau sekadar ingin menyapa?"
+      },
+      "support": {
+        "title": "Sokongan Teknikal",
+        "description": "Menghadapi masalah dengan penyegerakan tab atau penggunaan memori? Pasukan kami sedia membantu."
+      },
+      "faq": {
+        "question": "Mencari jawapan pantas?",
+        "link": "Lihat Dokumentasi Kami"
+      }
+    },
+
+    "form": {
+      "fullName": "Nama Penuh",
+      "fullNamePlaceholder": "Ali Ahmad",
+      "email": "Alamat Emel",
+      "emailPlaceholder": "alicontoh.com",
+      "subject": "Subjek",
+      "subjects": {
+        "general": "Pertanyaan Umum",
+        "support": "Sokongan Teknikal",
+        "feedback": "Maklum Balas",
+        "other": "Lain-lain"
+      },
+      "message": "Mesej Anda",
+      "messagePlaceholder": "Bagaimana kami boleh membantu?",
+      "submit": "Hantar Mesej"
+    }
   }
 }

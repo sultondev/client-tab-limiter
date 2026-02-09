@@ -52,5 +52,42 @@
     "viewDemo": "View Demo",
     "freeForever": "Free forever",
     "noTracking": "No data tracking"
+  },
+
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We usually respond within 24 hours. Have a question about a feature or need technical help with your tabs? We're here for you.",
+
+    "sidebar": {
+      "general": {
+        "title": "General Inquiries",
+        "description": "Curious about our pricing or team licenses? Just want to say hi?"
+      },
+      "support": {
+        "title": "Technical Support",
+        "description": "Facing issues with tab sync or memory usage? Our devs are ready to help."
+      },
+      "faq": {
+        "question": "Looking for quick answers?",
+        "link": "Check our Documentation"
+      }
+    },
+
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "johnexample.com",
+      "subject": "Subject",
+      "subjects": {
+        "general": "General Inquiry",
+        "support": "Technical Support",
+        "feedback": "Feedback",
+        "other": "Other"
+      },
+      "message": "Your Message",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send Message"
+    }
   }
 }

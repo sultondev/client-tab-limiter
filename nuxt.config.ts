@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     'nuxt-delay-hydration',
     '@nuxtjs/i18n',
     'nuxt-typed-router',
+    '@nuxt/icon',
   ],
   tailwindcss: {
     exposeConfig: true,
