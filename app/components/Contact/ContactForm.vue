@@ -15,7 +15,7 @@
             :placeholder="$t('contact.form.fullNamePlaceholder')"
             type="text"
             required
-          >
+          />
         </div>
         <div class="flex flex-col gap-2">
           <label class="text-sm font-semibold" for="email">
@@ -28,7 +28,7 @@
             :placeholder="$t('contact.form.emailPlaceholder')"
             type="email"
             required
-          >
+          />
         </div>
       </div>
 

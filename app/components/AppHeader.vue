@@ -14,7 +14,9 @@
         <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
           <Icon name="mdi:tab-unselected" class="text-2xl" />
         </div>
-        <NuxtLinkLocale to="/" class="text-base font-bold tracking-tight text-primary">{{ t('appName') }}</NuxtLinkLocale>
+        <NuxtLinkLocale to="/" class="text-base font-bold tracking-tight text-primary">{{
+          t('appName')
+        }}</NuxtLinkLocale>
       </div>
       <nav class="hidden flex-1 justify-center gap-10 md:flex">
         <NuxtLinkLocale

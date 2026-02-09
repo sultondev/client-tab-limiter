@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type {FeatureCardPropTypes} from "~/types/global"
+  import type { FeatureCardPropTypes } from '~/types/interfaces/components/feature-card.types';
 
-const {iconName, title, description} = defineProps<FeatureCardPropTypes>()
+  const { iconName, title, description } = defineProps<FeatureCardPropTypes>();
 </script>
 
 <template>
