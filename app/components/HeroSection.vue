@@ -1,6 +1,10 @@
 <script setup lang="ts">
   // Hero section with main CTA
   const { t } = useI18n();
+
+  function openExtensionPage() {
+    window.open('https://chromewebstore.google.com/detail/tab-limiter-%E2%80%93-tab-manager/cefponhjhdndnnbjjhmdplbhbpopblbc', '_blank')
+  }
 </script>
 
 <template>
@@ -34,6 +38,7 @@
         </div>
         <div class="flex flex-wrap gap-4">
           <button
+            @click="openExtensionPage()"
             class="cta-shadow flex min-w-[200px] items-center justify-center gap-3 rounded-xl bg-primary px-8 py-5 text-lg font-bold text-white transition-transform hover:scale-[1.02] active:scale-[0.98]"
           >
             <Icon name="mdi:puzzle" />

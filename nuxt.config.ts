@@ -2,7 +2,15 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss', 'nuxt-delay-hydration', '@nuxtjs/i18n', 'nuxt-typed-router', '@nuxt/icon', '@nuxtjs/eslint-module'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxtjs/tailwindcss',
+    'nuxt-delay-hydration',
+    '@nuxtjs/i18n',
+    'nuxt-typed-router',
+    '@nuxt/icon',
+    '@nuxtjs/eslint-module',
+  ],
   tailwindcss: {
     exposeConfig: true,
     config: ['./tailwind.config.ts'],
