@@ -83,5 +83,70 @@
       "messagePlaceholder": "Comment pouvons-nous vous aider ?",
       "submit": "Envoyer le message"
     }
+  },
+  "legal": {
+    "sidebar": {
+      "title": "Centre juridique",
+      "version": "Version 1.2.0",
+      "nav": {
+        "terms": "Conditions d'utilisation",
+        "privacy": "Politique de confidentialité"
+      }
+    }
+  },
+  "privacy": {
+    "header": {
+      "badge": "DERNIÈRE MISE À JOUR : 24 OCTOBRE 2023",
+      "title": "Politique de confidentialité",
+      "description": "Votre vie privée est essentielle pour nous. Cette politique explique comment Tab Limiter traite les informations."
+    },
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "Tab Limiter est conçu comme un outil \"Privacy-First\". Vos habitudes de navigation vous appartiennent. Nous ne vendons jamais vos données."
+      },
+      "dataCollection": {
+        "title": "Informations collectées",
+        "intro": "Nous distinguons \"Données personnelles\" et \"Données d'utilisation\":",
+        "items": {
+          "config": {
+            "title": "Paramètres de configuration",
+            "description": "Stockés localement via l’API Chrome."
+          },
+          "telemetry": {
+            "title": "Télémétrie",
+            "description": "Statistiques anonymes comme le nombre d’onglets fermés."
+          },
+          "history": {
+            "title": "Historique de navigation",
+            "description": "Nous ne collectons PAS votre historique ni le contenu des pages."
+          }
+        }
+      },
+      "permissions": {
+        "title": "Autorisations du navigateur",
+        "intro": "Pour fonctionner correctement, Tab Limiter nécessite :",
+        "cards": {
+          "tabs": {
+            "title": "\"tabs\"",
+            "description": "Utilisé pour compter les onglets actifs et les fermer lorsque la limite est dépassée."
+          },
+          "storage": {
+            "title": "\"storage\"",
+            "description": "Utilisé pour enregistrer vos paramètres personnalisés et les synchroniser entre vos appareils."
+          }
+        }
+      },
+      "security": {
+        "title": "Sécurité des données",
+        "content": "Les données synchronisées sont chiffrées et protégées par des standards industriels."
+      }
+    },
+    "contact": {
+      "title": "Des questions ?",
+      "description": "Pour toute question concernant cette politique :",
+      "primaryButton": "Contacter l’équipe juridique",
+      "secondaryButton": "Contacter le support"
+    }
   }
 }

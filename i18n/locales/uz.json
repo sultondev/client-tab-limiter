@@ -82,5 +82,70 @@
       "messagePlaceholder": "Qanday yordam bera olamiz?",
       "submit": "Xabar yuborish"
     }
+  },
+  "legal": {
+    "sidebar": {
+      "title": "Huquqiy bo‘lim",
+      "version": "Versiya 1.2.0",
+      "nav": {
+        "terms": "Foydalanish shartlari",
+        "privacy": "Maxfiylik siyosati"
+      }
+    }
+  },
+  "privacy": {
+    "header": {
+      "badge": "OXIRGI YANGILANISH: 2023-YIL 24-OKTABR",
+      "title": "Maxfiylik siyosati",
+      "description": "Sizning maxfiyligingiz biz uchun muhim. Ushbu siyosat Tab Limiter qanday ma’lumotlarni qayta ishlashini tushuntiradi."
+    },
+    "sections": {
+      "introduction": {
+        "title": "Kirish",
+        "content": "Tab Limiter \"Privacy-First\" tamoyiliga asoslangan. Ko‘rish odatlaringiz faqat sizga tegishli. Ma’lumotlaringizni hech qachon sotmaymiz."
+      },
+      "dataCollection": {
+        "title": "Yig‘iladigan ma’lumotlar",
+        "intro": "\"Shaxsiy ma’lumotlar\" va \"Foydalanish ma’lumotlari\"ni ajratamiz:",
+        "items": {
+          "config": {
+            "title": "Sozlamalar",
+            "description": "Tab limitlari va oq ro‘yxat sozlamalari Chrome API orqali lokal saqlanadi."
+          },
+          "telemetry": {
+            "title": "Telemetriya",
+            "description": "Yopilgan tablar soni kabi anonim statistika yig‘iladi."
+          },
+          "history": {
+            "title": "Brauzer tarixi",
+            "description": "URL tarixingiz yoki sahifa mazmunini yig‘maymiz va saqlamaymiz."
+          }
+        }
+      },
+      "permissions": {
+        "title": "Brauzer ruxsatlari",
+        "intro": "To‘g‘ri ishlashi uchun quyidagi ruxsatlar kerak:",
+        "cards": {
+          "tabs": {
+            "title": "\"tabs\"",
+            "description": "Faol tablarni hisoblash va limit oshganda ularni yopish uchun ishlatiladi."
+          },
+          "storage": {
+            "title": "\"storage\"",
+            "description": "Maxsus sozlamalar va oq ro‘yxatni qurilmalar o‘rtasida sinxronlash uchun ishlatiladi."
+          }
+        }
+      },
+      "security": {
+        "title": "Ma’lumot xavfsizligi",
+        "content": "Sinxronlangan ma’lumotlar shifrlanadi. Standart xavfsizlik choralarini qo‘llaymiz."
+      }
+    },
+    "contact": {
+      "title": "Savollaringiz bormi?",
+      "description": "Maxfiylik siyosati bo‘yicha savollaringiz bo‘lsa, biz bilan bog‘laning:",
+      "primaryButton": "Huquqiy jamoaga yozish",
+      "secondaryButton": "Texnik yordam"
+    }
   }
 }

@@ -16,9 +16,9 @@
         <a class="text-sm font-medium text-[#617589] hover:text-primary" href="#terms">
           {{ t('footer.terms') }}
         </a>
-        <a class="text-sm font-medium text-[#617589] hover:text-primary" href="#privacy">
+        <NuxtLinkLocale class="text-sm font-medium text-[#617589] hover:text-primary" to="/privacy">
           {{ t('footer.privacyPolicy') }}
-        </a>
+        </NuxtLinkLocale>
         <a class="text-sm font-medium text-[#617589] hover:text-primary" href="#contact">
           {{ t('footer.contact') }}
         </a>

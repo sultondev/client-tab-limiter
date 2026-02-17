@@ -28,7 +28,6 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'en',
     langDir: './locales/',
-    legacy: false,
   },
   app: {
     head: {

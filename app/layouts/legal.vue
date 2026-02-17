@@ -6,6 +6,5 @@
   <div class="relative flex min-h-screen w-full text-base flex-col overflow-x-hidden">
     <AppHeader />
     <slot />
-    <AppFooter />
   </div>
 </template>

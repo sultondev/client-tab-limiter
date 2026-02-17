@@ -82,5 +82,70 @@
       "messagePlaceholder": "Wie können wir helfen?",
       "submit": "Nachricht senden"
     }
+  },
+  "legal": {
+    "sidebar": {
+      "title": "Rechtsbereich",
+      "version": "Version 1.2.0",
+      "nav": {
+        "terms": "Nutzungsbedingungen",
+        "privacy": "Datenschutzerklärung"
+      }
+    }
+  },
+  "privacy": {
+    "header": {
+      "badge": "ZUletzt AKTUALISIERT: 24. OKTOBER 2023",
+      "title": "Datenschutzerklärung",
+      "description": "Ihre Privatsphäre ist für uns von größter Bedeutung. Diese Richtlinie erläutert, wie Tab Limiter Informationen verarbeitet, wenn Sie unsere Browser-Erweiterung und verbundene Dienste nutzen."
+    },
+    "sections": {
+      "introduction": {
+        "title": "Einführung",
+        "content": "Tab Limiter wurde als \"Privacy-First\"-Tool entwickelt. Ihre Surfgewohnheiten gehen nur Sie etwas an. Die meisten Prozesse laufen lokal auf Ihrem Gerät, und wir verkaufen Ihre Daten niemals an Dritte."
+      },
+      "dataCollection": {
+        "title": "Welche Informationen wir erfassen",
+        "intro": "Wir unterscheiden zwischen \"Personenbezogenen Daten\" und \"Nutzungsdaten\". Folgendes erfassen wir:",
+        "items": {
+          "config": {
+            "title": "Konfigurationseinstellungen",
+            "description": "Wir speichern Ihre bevorzugten Tab-Limits und Whitelist-Einstellungen lokal über die Chrome-Speicher-API."
+          },
+          "telemetry": {
+            "title": "Erweiterungs-Telemetrie",
+            "description": "Zur Verbesserung unseres Dienstes erfassen wir anonyme Nutzungsstatistiken wie die Anzahl geschlossener Tabs und die Erweiterungsversion."
+          },
+          "history": {
+            "title": "Browserverlauf",
+            "description": "Wir sammeln, speichern oder übertragen NICHT Ihren URL-Verlauf oder die Inhalte der von Ihnen besuchten Seiten."
+          }
+        }
+      },
+      "permissions": {
+        "title": "Browser-Berechtigungen",
+        "intro": "Für die ordnungsgemäße Funktion benötigt Tab Limiter folgende Berechtigungen:",
+        "cards": {
+          "tabs": {
+            "title": "\"tabs\"",
+            "description": "Wird verwendet, um aktive Tabs zu zählen und sie zu schließen, wenn das Limit überschritten wird."
+          },
+          "storage": {
+            "title": "\"storage\"",
+            "description": "Wird verwendet, um Ihre Einstellungen zu speichern und geräteübergreifend zu synchronisieren."
+          }
+        }
+      },
+      "security": {
+        "title": "Datensicherheit",
+        "content": "Synchronisierte Daten werden bei der Übertragung und Speicherung verschlüsselt. Wir setzen branchenübliche Sicherheitsmaßnahmen ein, um unbefugten Zugriff zu verhindern."
+      }
+    },
+    "contact": {
+      "title": "Fragen?",
+      "description": "Wenn Sie Fragen zu unserer Datenschutzerklärung haben, kontaktieren Sie uns bitte:",
+      "primaryButton": "Rechtsteam kontaktieren",
+      "secondaryButton": "Support kontaktieren"
+    }
   }
 }

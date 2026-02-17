@@ -82,5 +82,70 @@
       "messagePlaceholder": "我们如何帮助你？",
       "submit": "发送消息"
     }
+  },
+  "legal": {
+    "sidebar": {
+      "title": "法律中心",
+      "version": "版本 1.2.0",
+      "nav": {
+        "terms": "服务条款",
+        "privacy": "隐私政策"
+      }
+    }
+  },
+  "privacy": {
+    "header": {
+      "badge": "最后更新：2023年10月24日",
+      "title": "隐私政策",
+      "description": "您的隐私对我们至关重要。本政策说明 Tab Limiter 如何处理您的信息。"
+    },
+    "sections": {
+      "introduction": {
+        "title": "介绍",
+        "content": "Tab Limiter 采用“隐私优先”设计。您的浏览习惯属于您自己，我们绝不会出售您的数据。"
+      },
+      "dataCollection": {
+        "title": "我们收集的信息",
+        "intro": "我们区分“个人数据”和“使用数据”：",
+        "items": {
+          "config": {
+            "title": "配置设置",
+            "description": "通过 Chrome 存储 API 本地保存标签页限制和白名单设置。"
+          },
+          "telemetry": {
+            "title": "扩展遥测",
+            "description": "收集匿名统计数据，如关闭的标签页数量。"
+          },
+          "history": {
+            "title": "浏览历史",
+            "description": "我们不会收集或存储您的 URL 历史或页面内容。"
+          }
+        }
+      },
+      "permissions": {
+        "title": "浏览器权限",
+        "intro": "为正常运行，Tab Limiter 需要以下权限：",
+        "cards": {
+          "tabs": {
+            "title": "\"tabs\"",
+            "description": "用于统计当前活动标签页数量，并在超过限制时关闭它们。"
+          },
+          "storage": {
+            "title": "\"storage\"",
+            "description": "用于保存自定义设置，并在不同设备之间同步白名单。"
+          }
+        }
+      },
+      "security": {
+        "title": "数据安全",
+        "content": "同步数据在传输和存储过程中均经过加密，并采用行业标准安全措施。"
+      }
+    },
+    "contact": {
+      "title": "有疑问？",
+      "description": "如果您对本隐私政策有任何疑问，请联系我们：",
+      "primaryButton": "联系法律团队",
+      "secondaryButton": "联系支持"
+    }
   }
 }

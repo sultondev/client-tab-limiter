@@ -31,12 +31,12 @@
         >
           {{ t('nav.howItWorks') }}
         </a>
-        <a
+        <NuxtLinkLocale
           class="text-sm font-semibold text-[#617589] hover:text-primary transition-colors"
-          href="#privacy"
+          to="/privacy"
         >
           {{ t('nav.privacy') }}
-        </a>
+        </NuxtLinkLocale>
         <NuxtLinkLocale
           to="/contact"
           class="text-sm font-semibold text-[#617589] hover:text-primary transition-colors"

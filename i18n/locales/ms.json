@@ -83,5 +83,70 @@
       "messagePlaceholder": "Bagaimana kami boleh membantu?",
       "submit": "Hantar Mesej"
     }
+  },
+  "legal": {
+    "sidebar": {
+      "title": "Pusat Undang-Undang",
+      "version": "Versi 1.2.0",
+      "nav": {
+        "terms": "Terma Perkhidmatan",
+        "privacy": "Dasar Privasi"
+      }
+    }
+  },
+  "privacy": {
+    "header": {
+      "badge": "KEMAS KINI TERAKHIR: 24 OKTOBER 2023",
+      "title": "Dasar Privasi",
+      "description": "Privasi anda amat penting bagi kami. Dasar ini menerangkan bagaimana Tab Limiter mengurus maklumat anda."
+    },
+    "sections": {
+      "introduction": {
+        "title": "Pengenalan",
+        "content": "Tab Limiter direka sebagai alat \"Privacy-First\". Tabiat pelayaran anda adalah milik anda."
+      },
+      "dataCollection": {
+        "title": "Maklumat Dikumpul",
+        "intro": "Kami membezakan antara \"Data Peribadi\" dan \"Data Penggunaan\":",
+        "items": {
+          "config": {
+            "title": "Tetapan Konfigurasi",
+            "description": "Disimpan secara tempatan melalui API storan Chrome."
+          },
+          "telemetry": {
+            "title": "Telemetri Sambungan",
+            "description": "Statistik penggunaan anonim dikumpulkan."
+          },
+          "history": {
+            "title": "Sejarah Pelayaran",
+            "description": "Kami TIDAK mengumpul sejarah URL atau kandungan halaman."
+          }
+        }
+      },
+      "permissions": {
+        "title": "Kebenaran Pelayar",
+        "intro": "Untuk berfungsi dengan betul, Tab Limiter memerlukan:",
+        "cards": {
+          "tabs": {
+            "title": "\"tabs\"",
+            "description": "Digunakan untuk mengira tab aktif dan menutupnya apabila had melebihi."
+          },
+          "storage": {
+            "title": "\"storage\"",
+            "description": "Digunakan untuk menyimpan tetapan tersuai dan menyegerakkannya antara peranti."
+          }
+        }
+      },
+      "security": {
+        "title": "Keselamatan Data",
+        "content": "Data yang disegerakkan disulitkan dan dilindungi."
+      }
+    },
+    "contact": {
+      "title": "Ada soalan?",
+      "description": "Jika anda mempunyai soalan mengenai dasar ini, hubungi kami:",
+      "primaryButton": "E-mel Pasukan Undang-Undang",
+      "secondaryButton": "Hubungi Sokongan"
+    }
   }
 }

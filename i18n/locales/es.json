@@ -83,5 +83,70 @@
       "messagePlaceholder": "¿Cómo podemos ayudarte?",
       "submit": "Enviar mensaje"
     }
+  },
+  "legal": {
+    "sidebar": {
+      "title": "Centro Legal",
+      "version": "Versión 1.2.0",
+      "nav": {
+        "terms": "Términos de Servicio",
+        "privacy": "Política de Privacidad"
+      }
+    }
+  },
+  "privacy": {
+    "header": {
+      "badge": "ÚLTIMA ACTUALIZACIÓN: 24 DE OCTUBRE DE 2023",
+      "title": "Política de Privacidad",
+      "description": "Tu privacidad es fundamental para nosotros. Esta política explica cómo Tab Limiter gestiona la información cuando utilizas nuestra extensión."
+    },
+    "sections": {
+      "introduction": {
+        "title": "Introducción",
+        "content": "Tab Limiter está diseñado como una herramienta \"Privacy-First\". Tus hábitos de navegación son asunto tuyo. La mayor parte del procesamiento ocurre localmente y nunca vendemos tus datos."
+      },
+      "dataCollection": {
+        "title": "Información que recopilamos",
+        "intro": "Diferenciamos entre \"Datos personales\" y \"Datos de uso\":",
+        "items": {
+          "config": {
+            "title": "Configuración",
+            "description": "Guardamos tus límites de pestañas y listas blancas localmente mediante la API de almacenamiento de Chrome."
+          },
+          "telemetry": {
+            "title": "Telemetría de la extensión",
+            "description": "Recopilamos estadísticas anónimas como el total de pestañas cerradas y la versión de la extensión."
+          },
+          "history": {
+            "title": "Historial de navegación",
+            "description": "NO recopilamos ni almacenamos tu historial de URLs ni el contenido de las páginas visitadas."
+          }
+        }
+      },
+      "permissions": {
+        "title": "Permisos del navegador",
+        "intro": "Para funcionar correctamente, Tab Limiter necesita los siguientes permisos:",
+        "cards": {
+          "tabs": {
+            "title": "\"tabs\"",
+            "description": "Se utiliza para contar las pestañas activas y cerrarlas cuando se supera el límite."
+          },
+          "storage": {
+            "title": "\"storage\"",
+            "description": "Se utiliza para guardar tus configuraciones personalizadas y sincronizarlas entre dispositivos."
+          }
+        }
+      },
+      "security": {
+        "title": "Seguridad de datos",
+        "content": "Los datos sincronizados están cifrados en tránsito y en reposo. Aplicamos medidas estándar de seguridad."
+      }
+    },
+    "contact": {
+      "title": "¿Preguntas?",
+      "description": "Si tienes preguntas sobre nuestra Política de Privacidad, contáctanos:",
+      "primaryButton": "Enviar correo al equipo legal",
+      "secondaryButton": "Contactar soporte"
+    }
   }
 }
