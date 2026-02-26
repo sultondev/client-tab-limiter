@@ -60,7 +60,7 @@
         type="submit"
       >
         {{ $t('contact.form.submit') }}
-        <Icon name="mdi:send" class-name="text-sm group-hover:translate-x-1 transition-transform" />
+        <Icon name="mdi:send" class="text-sm group-hover:translate-x-1 transition-transform" />
       </button>
     </form>
   </div>

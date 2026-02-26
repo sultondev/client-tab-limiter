@@ -40,6 +40,50 @@
     "privacyCentric": {
       "title": "Privacy Centric",
       "description": "We never track your history. Everything runs locally on your machine for 100% privacy."
+    },
+    "hero": {
+      "badge": "Stay Focused",
+      "title": "Master your browser tabs,",
+      "titleHighlight": "reclaim your productivity.",
+      "description": "Stop the infinite scroll and tab clutter. Tab Limiter helps you stay disciplined by automatically managing your workspace.",
+      "primaryButton": "Install Extension",
+      "secondaryButton": "Watch Demo"
+    },
+    "grid": {
+      "title": "Powerful Control Features",
+      "subtitle": "Everything you need to keep your browsing session lean, fast, and distraction-free.",
+      "items": {
+        "tabLimits": {
+          "title": "Tab Limits",
+          "description": "Set a hard cap on your open tabs. Stop the clutter before it starts by preventing new tabs from opening once you've reached your custom limit."
+        },
+        "perDomain": {
+          "title": "Per-Domain Rules",
+          "description": "Create custom limits for specific sites. Keep YouTube or news sites in check while allowing unlimited tabs for your research and documentation sites."
+        },
+        "countdown": {
+          "title": "Countdown Warning",
+          "description": "Receive gentle visual nudges before a tab is automatically closed. Give yourself time to finish a task or bookmark a page before the limit kicks in."
+        },
+        "urlBlocking": {
+          "title": "URL Blocking",
+          "description": "Eliminate distractions by blocking specific URLs during focus sessions. Turn off social media while you're in deep work mode with one click."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to reclaim your focus?",
+      "description": "Join over 50,000+ professionals who have mastered their browsing habits and boosted their productivity.",
+      "button": "Get Started - It's Free"
+    },
+    "footer": {
+      "links": {
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service",
+        "changelog": "Changelog",
+        "contact": "Contact"
+      },
+      "copyright": "© { year } Tab Limiter. Designed for distraction-free browsing."
     }
   },
 

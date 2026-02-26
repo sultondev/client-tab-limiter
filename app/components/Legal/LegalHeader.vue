@@ -3,7 +3,7 @@
     <div
       class="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold mb-4"
     >
-      <Icon name="mdi:history" class-name="text-xs mr-1" />
+      <Icon name="mdi:history" class="text-xs mr-1" />
       {{ badge }}
     </div>
     <h1

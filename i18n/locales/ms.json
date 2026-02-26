@@ -25,16 +25,60 @@
   },
   "features": {
     "intelligentGuard": {
-      "title": "Pengawal Pintar",
-      "description": "Menghalang tab baharu dibuka selepas mencapai had yang ditetapkan."
+      "title": "Perlindungan Pintar",
+      "description": "Menghalang pembukaan tab baharu apabila had anda dicapai."
     },
     "focusSchedules": {
       "title": "Jadual Fokus",
-      "description": "Tetapkan had ketat semasa waktu kerja dan longgarkan kemudian."
+      "description": "Tetapkan had ketat semasa waktu kerja."
     },
     "privacyCentric": {
-      "title": "Berteras Privasi",
-      "description": "Kami tidak menjejak sejarah anda. Semuanya berjalan secara tempatan."
+      "title": "Berteraskan Privasi",
+      "description": "Kami tidak pernah menjejaki sejarah anda."
+    },
+    "hero": {
+      "badge": "Kekal Fokus",
+      "title": "Kawal tab pelayar anda,",
+      "titleHighlight": "tingkatkan produktiviti anda.",
+      "description": "Hentikan skrol tanpa henti dan tab yang berselerak.",
+      "primaryButton": "Pasang Sambungan",
+      "secondaryButton": "Tonton Demo"
+    },
+    "grid": {
+      "title": "Ciri Kawalan Berkuasa",
+      "subtitle": "Segala yang anda perlukan untuk pelayaran tanpa gangguan.",
+      "items": {
+        "tabLimits": {
+          "title": "Had Tab",
+          "description": "Tetapkan had maksimum untuk tab terbuka."
+        },
+        "perDomain": {
+          "title": "Peraturan Mengikut Domain",
+          "description": "Cipta had tersuai untuk laman tertentu."
+        },
+        "countdown": {
+          "title": "Amaran Undur",
+          "description": "Terima amaran sebelum tab ditutup secara automatik."
+        },
+        "urlBlocking": {
+          "title": "Sekatan URL",
+          "description": "Sekat laman yang mengganggu semasa sesi fokus."
+        }
+      }
+    },
+    "cta": {
+      "title": "Bersedia untuk kembali fokus?",
+      "description": "Sertai lebih 50,000 profesional.",
+      "button": "Mula — Percuma"
+    },
+    "footer": {
+      "links": {
+        "privacy": "Dasar Privasi",
+        "terms": "Terma Perkhidmatan",
+        "changelog": "Log Perubahan",
+        "contact": "Hubungi"
+      },
+      "copyright": "© { year } Tab Limiter. Direka untuk pelayaran tanpa gangguan."
     }
   },
   "hero": {

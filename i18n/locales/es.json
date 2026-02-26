@@ -17,24 +17,62 @@
     "productivityBoost": "AUMENTO DE PRODUCTIVIDAD",
     "focusIncrease": "+42% Enfoque"
   },
-  "footer": {
-    "terms": "Términos",
-    "privacyPolicy": "Política de privacidad",
-    "contact": "Contacto",
-    "copyright": "© { year } Tab Limiter. Diseñado para el flujo."
-  },
   "features": {
     "intelligentGuard": {
-      "title": "Guardia inteligente",
-      "description": "Evita que se abran nuevas pestañas cuando alcanzas tu límite personalizado, obligándote a priorizar."
+      "title": "Protección inteligente",
+      "description": "Evita que se abran nuevas pestañas cuando alcanzas tu límite."
     },
     "focusSchedules": {
       "title": "Horarios de enfoque",
-      "description": "Establece límites estrictos durante el trabajo y relájalos para navegar más tarde."
+      "description": "Establece límites estrictos durante el trabajo."
     },
     "privacyCentric": {
-      "title": "Centrado en la privacidad",
-      "description": "Nunca rastreamos tu historial. Todo funciona localmente en tu dispositivo."
+      "title": "Privacidad primero",
+      "description": "Nunca rastreamos tu historial."
+    },
+    "hero": {
+      "badge": "Mantente enfocado",
+      "title": "Domina tus pestañas,",
+      "titleHighlight": "recupera tu productividad.",
+      "description": "Detén el desplazamiento infinito y el desorden.",
+      "primaryButton": "Instalar extensión",
+      "secondaryButton": "Ver demo"
+    },
+    "grid": {
+      "title": "Funciones de control potentes",
+      "subtitle": "Todo lo que necesitas para navegar sin distracciones.",
+      "items": {
+        "tabLimits": {
+          "title": "Límites de pestañas",
+          "description": "Establece un máximo de pestañas abiertas."
+        },
+        "perDomain": {
+          "title": "Reglas por dominio",
+          "description": "Crea límites personalizados para sitios específicos."
+        },
+        "countdown": {
+          "title": "Advertencia regresiva",
+          "description": "Recibe un aviso antes del cierre automático."
+        },
+        "urlBlocking": {
+          "title": "Bloqueo de URL",
+          "description": "Bloquea sitios distractores durante sesiones de enfoque."
+        }
+      }
+    },
+    "cta": {
+      "title": "¿Listo para recuperar tu enfoque?",
+      "description": "Únete a más de 50,000 profesionales.",
+      "button": "Comenzar — Gratis"
+    },
+    "footer": {
+      "links": {
+        "privacy": "Política de privacidad",
+        "terms": "Términos de servicio",
+        "changelog": "Registro de cambios",
+        "contact": "Contacto"
+      },
+      "copyright": "© { year } Tab Limiter. Diseñado para navegar sin distracciones."
     }
   },
   "hero": {

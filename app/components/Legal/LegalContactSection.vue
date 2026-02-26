@@ -14,14 +14,14 @@
         @click="handlePrimaryAction"
         class="flex items-center justify-center gap-2 bg-[#111418] text-white px-6 py-3 rounded-lg font-bold hover:bg-black transition-all"
       >
-        <Icon :name="primaryIcon" class-name="text-sm" />
+        <Icon :name="primaryIcon" class="text-sm" />
         {{ primaryLabel }}
       </button>
       <button
         @click="handleSecondaryAction"
         class="flex items-center justify-center gap-2 bg-white dark:bg-[#1a242f] border border-slate-200 dark:border-slate-700 text-[#111418] dark:text-white px-6 py-3 rounded-lg font-bold hover:bg-slate-50 dark:hover:bg-slate-800 transition-all"
       >
-        <Icon :name="secondaryIcon" class-name="text-sm" />
+        <Icon :name="secondaryIcon" class="text-sm" />
         {{ secondaryLabel }}
       </button>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <li class="flex gap-4" :class="{ 'text-slate-400': disabled }">
-    <Icon :name="icon" :class-name="`mt-1 ${iconClass}`" />
+    <Icon :name="icon" :class="`mt-1 ${iconClass}`" />
     <div>
       <strong
         class="text-[#111418] dark:text-white"

@@ -18,7 +18,7 @@
       </span>
       <Icon
         name="mdi:chevron-down"
-        class-name="text-lg text transition-all duration-200"
+        class="text-lg text transition-all duration-200"
         :class="{ 'rotate-180': isOpen }"
       />
     </button>
@@ -55,7 +55,7 @@
             <Icon
               v-if="modelValue === option.value"
               name="mdi:check"
-              class-name="text-lg text-primary"
+              class="text-lg text-primary"
             />
           </button>
         </div>

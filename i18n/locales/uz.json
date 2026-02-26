@@ -25,16 +25,60 @@
   },
   "features": {
     "intelligentGuard": {
-      "title": "Aqlli nazorat",
-      "description": "Limitga yetganda yangi tab ochilishini to‘xtatadi."
+      "title": "Aqlli Himoya",
+      "description": "Moslashtirilgan chegarangizga yetganingizda yangi tablar ochilishini oldini oladi va ustuvorlikni belgilashga majbur qiladi."
     },
     "focusSchedules": {
-      "title": "Fokus jadvali",
-      "description": "Ish vaqtida qat’iy, keyin esa erkin."
+      "title": "Fokus Jadvali",
+      "description": "Ish vaqtida qat'iy cheklovlar o‘rnating va kunning keyingi qismida ko‘rish sessiyalari uchun ularni yumshating."
     },
     "privacyCentric": {
-      "title": "Maxfiylikka yo‘naltirilgan",
-      "description": "Hech qanday tarix kuzatilmaydi. Hammasi lokal ishlaydi."
+      "title": "Maxfiylikka Yo‘naltirilgan",
+      "description": "Biz hech qachon tarixingizni kuzatmaymiz. Hammasi 100% maxfiylik uchun qurilmangizda lokal ishlaydi."
+    },
+    "hero": {
+      "badge": "Fokusni Saqlang",
+      "title": "Brauzer tablaringizni boshqaring,",
+      "titleHighlight": "unumdorligingizni qayta tiklang.",
+      "description": "Cheksiz scroll va tab tartibsizligini to‘xtating. Tab Limiter ish maydoningizni avtomatik boshqarib, intizomni saqlashga yordam beradi.",
+      "primaryButton": "Kengaytmani O‘rnatish",
+      "secondaryButton": "Demo Ko‘rish"
+    },
+    "grid": {
+      "title": "Kuchli Nazorat Funksiyalari",
+      "subtitle": "Brauzer sessiyangizni ixcham, tez va chalg‘itishsiz saqlash uchun kerak bo‘lgan barcha vositalar.",
+      "items": {
+        "tabLimits": {
+          "title": "Tab Cheklovlari",
+          "description": "Ochiq tablar uchun qat'iy limit o‘rnating. Moslashtirilgan chegaraga yetgach yangi tablar ochilishini to‘xtatib, tartibsizlikni boshidan oldini oling."
+        },
+        "perDomain": {
+          "title": "Har Bir Domen Uchun Qoidalar",
+          "description": "Muayyan saytlar uchun alohida cheklovlar yarating. YouTube yoki yangilik saytlarini nazoratda saqlang, tadqiqot saytlariga esa cheksiz ruxsat bering."
+        },
+        "countdown": {
+          "title": "Orqaga Hisob Ogohlantirishi",
+          "description": "Tab avtomatik yopilishidan oldin vizual ogohlantirish oling. Vazifani tugatish yoki sahifani saqlab qo‘yish uchun vaqt bering."
+        },
+        "urlBlocking": {
+          "title": "URL Bloklash",
+          "description": "Fokus sessiyalari davomida muayyan URL manzillarni bloklab, chalg‘ituvchilarni yo‘q qiling. Bir bosishda ijtimoiy tarmoqlarni o‘chirib qo‘ying."
+        }
+      }
+    },
+    "cta": {
+      "title": "Fokusni qayta tiklashga tayyormisiz?",
+      "description": "Brauzer odatlarini boshqarib, unumdorligini oshirgan 50,000+ professionalga qo‘shiling.",
+      "button": "Boshlash — Bepul"
+    },
+    "footer": {
+      "links": {
+        "privacy": "Maxfiylik Siyosati",
+        "terms": "Foydalanish Shartlari",
+        "changelog": "O‘zgarishlar Tarixi",
+        "contact": "Aloqa"
+      },
+      "copyright": "© { year } Tab Limiter. Chalg‘itishsiz ko‘rish uchun yaratilgan."
     }
   },
   "hero": {

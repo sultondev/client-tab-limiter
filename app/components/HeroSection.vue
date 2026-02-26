@@ -3,7 +3,10 @@
   const { t } = useI18n();
 
   function openExtensionPage() {
-    window.open('https://chromewebstore.google.com/detail/tab-limiter-%E2%80%93-tab-manager/cefponhjhdndnnbjjhmdplbhbpopblbc', '_blank')
+    window.open(
+      'https://chromewebstore.google.com/detail/tab-limiter-%E2%80%93-tab-manager/cefponhjhdndnnbjjhmdplbhbpopblbc',
+      '_blank'
+    );
   }
 </script>
 

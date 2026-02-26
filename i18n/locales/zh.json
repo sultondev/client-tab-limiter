@@ -26,15 +26,59 @@
   "features": {
     "intelligentGuard": {
       "title": "智能守护",
-      "description": "达到自定义上限后阻止新标签页打开。"
+      "description": "当达到自定义标签上限时，阻止打开新标签页，迫使你进行优先排序。"
     },
     "focusSchedules": {
-      "title": "专注计划",
-      "description": "工作时严格限制，休闲浏览时放宽。"
+      "title": "专注时间表",
+      "description": "在工作时间设置严格限制，稍后放宽浏览限制。"
     },
     "privacyCentric": {
       "title": "隐私优先",
-      "description": "不追踪历史记录，一切本地运行。"
+      "description": "我们绝不会跟踪你的浏览历史。所有数据均在本地运行，确保100%隐私。"
+    },
+    "hero": {
+      "badge": "保持专注",
+      "title": "掌控你的浏览器标签，",
+      "titleHighlight": "重拾生产力。",
+      "description": "停止无尽滚动和标签混乱。Tab Limiter 自动管理你的工作空间。",
+      "primaryButton": "安装扩展程序",
+      "secondaryButton": "观看演示"
+    },
+    "grid": {
+      "title": "强大的控制功能",
+      "subtitle": "保持浏览会话简洁、快速、无干扰所需的一切。",
+      "items": {
+        "tabLimits": {
+          "title": "标签限制",
+          "description": "为打开的标签设置上限，防止新的标签继续增加。"
+        },
+        "perDomain": {
+          "title": "按域名规则",
+          "description": "为特定网站设置自定义限制。"
+        },
+        "countdown": {
+          "title": "倒计时提醒",
+          "description": "在标签自动关闭前收到视觉提醒。"
+        },
+        "urlBlocking": {
+          "title": "URL 屏蔽",
+          "description": "在专注模式下屏蔽干扰性网站。"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备好重拾专注了吗？",
+      "description": "加入超过 50,000+ 专业人士。",
+      "button": "立即开始 — 免费"
+    },
+    "footer": {
+      "links": {
+        "privacy": "隐私政策",
+        "terms": "服务条款",
+        "changelog": "更新日志",
+        "contact": "联系我们"
+      },
+      "copyright": "© { year } Tab Limiter. 为无干扰浏览而设计。"
     }
   },
   "hero": {

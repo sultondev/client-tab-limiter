@@ -25,16 +25,60 @@
   },
   "features": {
     "intelligentGuard": {
-      "title": "Intelligenter Wächter",
-      "description": "Verhindert neue Tabs nach Erreichen des Limits."
+      "title": "Intelligenter Schutz",
+      "description": "Verhindert das Öffnen neuer Tabs, sobald dein individuelles Limit erreicht ist, und zwingt dich zu priorisieren."
     },
     "focusSchedules": {
       "title": "Fokus-Zeitpläne",
-      "description": "Strenge Limits bei der Arbeit, lockerer danach."
+      "description": "Lege strenge Limits während der Arbeitszeit fest und lockere sie später am Tag."
     },
     "privacyCentric": {
       "title": "Datenschutzorientiert",
-      "description": "Keine Verlaufserfassung. Alles läuft lokal."
+      "description": "Wir verfolgen niemals deinen Verlauf. Alles läuft lokal auf deinem Gerät für 100% Datenschutz."
+    },
+    "hero": {
+      "badge": "Bleib fokussiert",
+      "title": "Meistere deine Browser-Tabs,",
+      "titleHighlight": "hole dir deine Produktivität zurück.",
+      "description": "Stoppe endloses Scrollen und Tab-Chaos. Tab Limiter verwaltet deinen Workspace automatisch.",
+      "primaryButton": "Erweiterung installieren",
+      "secondaryButton": "Demo ansehen"
+    },
+    "grid": {
+      "title": "Leistungsstarke Kontrollfunktionen",
+      "subtitle": "Alles, was du brauchst, um deine Browsing-Session schlank und ablenkungsfrei zu halten.",
+      "items": {
+        "tabLimits": {
+          "title": "Tab-Limits",
+          "description": "Setze ein festes Limit für offene Tabs und verhindere neues Chaos."
+        },
+        "perDomain": {
+          "title": "Domain-spezifische Regeln",
+          "description": "Erstelle individuelle Limits für bestimmte Websites."
+        },
+        "countdown": {
+          "title": "Countdown-Warnung",
+          "description": "Erhalte eine visuelle Warnung, bevor ein Tab automatisch geschlossen wird."
+        },
+        "urlBlocking": {
+          "title": "URL-Blockierung",
+          "description": "Blockiere ablenkende URLs während Fokus-Sessions."
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit, deinen Fokus zurückzuholen?",
+      "description": "Schließe dich 50.000+ Professionals an.",
+      "button": "Jetzt starten — Kostenlos"
+    },
+    "footer": {
+      "links": {
+        "privacy": "Datenschutzerklärung",
+        "terms": "Nutzungsbedingungen",
+        "changelog": "Änderungsverlauf",
+        "contact": "Kontakt"
+      },
+      "copyright": "© { year } Tab Limiter. Für ablenkungsfreies Surfen entwickelt."
     }
   },
   "hero": {

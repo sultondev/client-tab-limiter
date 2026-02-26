@@ -5,7 +5,7 @@
     <div class="flex flex-col gap-6">
       <div class="flex items-center gap-3">
         <div class="bg-primary/10 p-2 rounded-lg">
-          <Icon name="mdi:gavel" class-name="text-primary text-xl" />
+          <Icon name="mdi:gavel" class="text-primary text-xl" />
         </div>
         <div>
           <h3 class="text-sm font-bold text-[#111418] uppercase tracking-wider">
@@ -27,9 +27,7 @@
         >
           <Icon
             :name="item.icon"
-            :class-name="
-              isActive(item.id) ? 'text-primary' : 'text-slate-400 group-hover:text-primary'
-            "
+            :class="isActive(item.id) ? 'text-primary' : 'text-slate-400 group-hover:text-primary'"
           />
           <span
             class="text-sm font-semibold"

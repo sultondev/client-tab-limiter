@@ -25,16 +25,60 @@
   },
   "features": {
     "intelligentGuard": {
-      "title": "Garde intelligent",
-      "description": "Empêche l’ouverture de nouveaux onglets après avoir atteint la limite."
+      "title": "Protection intelligente",
+      "description": "Empêche l'ouverture de nouveaux onglets lorsque votre limite est atteinte."
     },
     "focusSchedules": {
       "title": "Plannings de concentration",
-      "description": "Limites strictes au travail, plus souples ensuite."
+      "description": "Définissez des limites strictes pendant les heures de travail."
     },
     "privacyCentric": {
       "title": "Respect de la vie privée",
-      "description": "Aucun suivi. Tout fonctionne localement."
+      "description": "Nous ne suivons jamais votre historique."
+    },
+    "hero": {
+      "badge": "Restez concentré",
+      "title": "Maîtrisez vos onglets,",
+      "titleHighlight": "reprenez votre productivité.",
+      "description": "Stoppez le défilement infini et le désordre des onglets.",
+      "primaryButton": "Installer l’extension",
+      "secondaryButton": "Voir la démo"
+    },
+    "grid": {
+      "title": "Fonctionnalités puissantes",
+      "subtitle": "Tout pour une navigation rapide et sans distraction.",
+      "items": {
+        "tabLimits": {
+          "title": "Limites d’onglets",
+          "description": "Définissez un plafond pour vos onglets ouverts."
+        },
+        "perDomain": {
+          "title": "Règles par domaine",
+          "description": "Créez des limites personnalisées pour certains sites."
+        },
+        "countdown": {
+          "title": "Alerte compte à rebours",
+          "description": "Recevez un avertissement avant la fermeture automatique."
+        },
+        "urlBlocking": {
+          "title": "Blocage d’URL",
+          "description": "Bloquez les sites distrayants pendant le travail."
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à reprendre votre concentration ?",
+      "description": "Rejoignez plus de 50 000 professionnels.",
+      "button": "Commencer — Gratuit"
+    },
+    "footer": {
+      "links": {
+        "privacy": "Politique de confidentialité",
+        "terms": "Conditions d’utilisation",
+        "changelog": "Journal des modifications",
+        "contact": "Contact"
+      },
+      "copyright": "© { year } Tab Limiter. Conçu pour une navigation sans distraction."
     }
   },
   "hero": {
