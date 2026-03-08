@@ -192,5 +192,60 @@
       "primaryButton": "E-mel Pasukan Undang-Undang",
       "secondaryButton": "Hubungi Sokongan"
     }
+  },
+  "terms": {
+    "header": {
+      "badge": "KEMAS KINI TERAKHIR: 12 NOVEMBER 2023",
+      "title": "Terma Perkhidmatan",
+      "description": "Sila baca terma ini dengan teliti sebelum menggunakan Tab Limiter."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "Penerimaan Terma",
+        "content": "Dengan menggunakan Tab Limiter, anda bersetuju dengan terma ini.",
+        "items": {
+          "agreement": "Perjanjian ini terpakai kepada semua pengguna.",
+          "updates": "Penggunaan berterusan bermaksud anda menerima kemas kini terma."
+        }
+      },
+      "description": {
+        "title": "Penerangan Perkhidmatan",
+        "intro": "Tab Limiter menyediakan alat untuk mengurus tab pelayar.",
+        "features": {
+          "autoClosing": {
+            "title": "Penutupan Automatik",
+            "description": "Pengurusan automatik tab yang berlebihan."
+          },
+          "whitelisting": {
+            "title": "Senarai Putih",
+            "description": "Pengecualian domain yang dikawal oleh pengguna."
+          }
+        }
+      },
+      "conduct": {
+        "title": "Tingkah Laku Pengguna",
+        "intro": "Anda bertanggungjawab atas penggunaan perkhidmatan.",
+        "items": {
+          "malicious": {
+            "title": "Tiada penggunaan berniat jahat:",
+            "description": " Anda tidak boleh mengganggu kestabilan pelayar."
+          },
+          "reverseEngineering": {
+            "title": "Tiada kejuruteraan songsang:",
+            "description": " Anda tidak boleh cuba mendapatkan kod sumber."
+          }
+        }
+      },
+      "intellectualProperty": {
+        "title": "Harta Intelek",
+        "content": "Perkhidmatan ini kekal sebagai milik eksklusif Tab Limiter."
+      }
+    },
+    "contact": {
+      "title": "Ada soalan?",
+      "description": "Jika anda mempunyai soalan tentang terma ini, hubungi pasukan kami.",
+      "primaryButton": "E-mel Pasukan Undang-undang",
+      "secondaryButton": "Hubungi Sokongan"
+    }
   }
 }

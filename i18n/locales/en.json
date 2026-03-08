@@ -205,5 +205,60 @@
       "primaryButton": "Email Legal Team",
       "secondaryButton": "Contact Support"
     }
+  },
+  "terms": {
+    "header": {
+      "badge": "LAST UPDATED: NOVEMBER 12, 2023",
+      "title": "Terms of Service",
+      "description": "Please read these terms carefully before using Tab Limiter. By installing and using our extension, you agree to be bound by these conditions."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing or using the Tab Limiter extension (\"Service\"), you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using or accessing this Service.",
+        "items": {
+          "agreement": "Agreement applies to all users of the browser extension.",
+          "updates": "Continued use constitutes acceptance of future updates to these terms."
+        }
+      },
+      "description": {
+        "title": "Description of Service",
+        "intro": "Tab Limiter provides tools for managing browser tab counts and improving productivity. Features include but are not limited to:",
+        "features": {
+          "autoClosing": {
+            "title": "Automatic Closing",
+            "description": "Automated management of surplus tabs based on user-defined limits."
+          },
+          "whitelisting": {
+            "title": "Whitelisting",
+            "description": "User-controlled domain exclusions to prevent closing of important pages."
+          }
+        }
+      },
+      "conduct": {
+        "title": "User Conduct",
+        "intro": "You are responsible for your own use of the Service and for any consequences thereof. You agree to use the Service only for purposes that are legal, proper and in accordance with these Terms.",
+        "items": {
+          "malicious": {
+            "title": "No Malicious Use:",
+            "description": "You may not use the Service to disrupt browser stability or engage in any behavior that negatively impacts other users."
+          },
+          "reverseEngineering": {
+            "title": "No Reverse Engineering:",
+            "description": "You agree not to decompile, reverse engineer, or attempt to derive the source code of the extension."
+          }
+        }
+      },
+      "intellectualProperty": {
+        "title": "Intellectual Property",
+        "content": "The Service, including its original content, features, and functionality, are and will remain the exclusive property of Tab Limiter and its licensors. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of Tab Limiter."
+      }
+    },
+    "contact": {
+      "title": "Questions?",
+      "description": "If you have any questions about these Terms of Service or our legal practices, please reach out to our team.",
+      "primaryButton": "Email Legal Team",
+      "secondaryButton": "Contact Support"
+    }
   }
 }

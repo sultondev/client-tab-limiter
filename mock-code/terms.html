@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Terms of Service - Tab Limiter</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#137fec',
+              'background-light': '#f6f7f8',
+              'background-dark': '#101922',
+            },
+            fontFamily: {
+              display: ['Inter', 'sans-serif'],
+            },
+            borderRadius: {
+              DEFAULT: '0.25rem',
+              lg: '0.5rem',
+              xl: '0.75rem',
+              full: '9999px',
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      body {
+        font-family: 'Inter', sans-serif;
+        scroll-behavior: smooth;
+      }
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  </head>
+  <body class="bg-background-light dark:bg-background-dark text-[#111418] font-display">
+    <div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+      <header
+        class="sticky top-0 z-50 flex items-center justify-between border-b border-solid border-primary/10 bg-white/80 backdrop-blur-md px-6 lg:px-40 py-3"
+      >
+        <div class="flex items-center gap-3 text-primary">
+          <div class="size-8">
+            <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path
+                clip-rule="evenodd"
+                d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              ></path>
+            </svg>
+          </div>
+          <h2 class="text-[#111418] text-xl font-bold tracking-tight">Tab Limiter</h2>
+        </div>
+        <div class="flex items-center gap-8">
+          <nav class="hidden md:flex items-center gap-8">
+            <a
+              class="text-[#111418] text-sm font-medium hover:text-primary transition-colors"
+              href="#"
+              >Features</a
+            >
+            <a
+              class="text-[#111418] text-sm font-medium hover:text-primary transition-colors"
+              href="#"
+              >Support</a
+            >
+            <a
+              class="text-[#111418] text-sm font-medium hover:text-primary transition-colors border-b-2 border-primary"
+              href="#"
+              >Legal</a
+            >
+          </nav>
+          <button
+            class="bg-primary hover:bg-primary/90 text-white px-5 py-2 rounded-lg text-sm font-bold transition-all shadow-sm"
+          >
+            Add to Chrome
+          </button>
+        </div>
+      </header>
+      <main class="flex flex-1 justify-center">
+        <div class="flex w-full max-w-[1280px] flex-col md:flex-row">
+          <aside
+            class="w-full md:w-80 p-6 md:p-10 md:sticky md:top-16 md:h-[calc(100vh-64px)] overflow-y-auto hide-scrollbar flex flex-col gap-8 border-r border-primary/5"
+          >
+            <div class="flex flex-col gap-6">
+              <div class="flex items-center gap-3">
+                <div class="bg-primary/10 p-2 rounded-lg">
+                  <span class="material-symbols-outlined text-primary">gavel</span>
+                </div>
+                <div>
+                  <h3 class="text-sm font-bold text-[#111418] uppercase tracking-wider">
+                    Legal Center
+                  </h3>
+                  <p class="text-xs text-primary/60 font-medium">Version 1.2.0</p>
+                </div>
+              </div>
+              <nav class="flex flex-col gap-2">
+                <a
+                  class="group flex items-center gap-3 px-4 py-3 rounded-xl bg-primary/10 border border-primary/20 transition-all"
+                  href="#tos"
+                >
+                  <span class="material-symbols-outlined text-primary">description</span>
+                  <span class="text-sm font-semibold text-primary">Terms of Service</span>
+                </a>
+                <a
+                  class="group flex items-center gap-3 px-4 py-3 rounded-xl transition-all hover:bg-primary/5"
+                  href="#"
+                >
+                  <span class="material-symbols-outlined text-slate-400 group-hover:text-primary"
+                    >shield</span
+                  >
+                  <span class="text-sm font-semibold text-slate-600 group-hover:text-primary"
+                    >Privacy Policy</span
+                  >
+                </a>
+              </nav>
+            </div>
+            <div class="mt-auto pt-6 border-t border-primary/5">
+              <div class="bg-white p-4 rounded-xl shadow-sm border border-primary/5">
+                <div class="flex justify-between items-end mb-2">
+                  <span class="text-xs font-bold text-slate-500">READING PROGRESS</span>
+                  <span class="text-xs font-bold text-primary">15%</span>
+                </div>
+                <div class="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
+                  <div class="h-full bg-primary" style="width: 15%"></div>
+                </div>
+              </div>
+            </div>
+          </aside>
+          <article class="flex-1 bg-white p-6 md:p-16 lg:px-24">
+            <div class="max-w-[800px] mx-auto">
+              <div class="mb-12">
+                <div
+                  class="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold mb-4"
+                >
+                  <span class="material-symbols-outlined text-xs mr-1">history</span>
+                  LAST UPDATED: NOVEMBER 12, 2023
+                </div>
+                <h1
+                  class="text-4xl md:text-5xl font-black text-[#111418] tracking-tight leading-tight mb-6"
+                >
+                  Terms of Service
+                </h1>
+                <p class="text-lg text-slate-500 leading-relaxed">
+                  Please read these terms carefully before using Tab Limiter. By installing and
+                  using our extension, you agree to be bound by these conditions.
+                </p>
+              </div>
+              <div class="space-y-12 text-slate-700 leading-relaxed">
+                <section id="acceptance">
+                  <h2 class="text-2xl font-bold text-[#111418] mb-4 flex items-center gap-2">
+                    <span class="text-primary/40">01.</span> Acceptance of Terms
+                  </h2>
+                  <p class="mb-4">
+                    By accessing or using the Tab Limiter extension ("Service"), you agree to be
+                    bound by these Terms of Service and all applicable laws and regulations. If you
+                    do not agree with any of these terms, you are prohibited from using or accessing
+                    this Service.
+                  </p>
+                  <ul class="space-y-3 ml-2">
+                    <li class="flex gap-4">
+                      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+                      <span>Agreement applies to all users of the browser extension.</span>
+                    </li>
+                    <li class="flex gap-4">
+                      <span class="material-symbols-outlined text-primary mt-1">check_circle</span>
+                      <span
+                        >Continued use constitutes acceptance of future updates to these
+                        terms.</span
+                      >
+                    </li>
+                  </ul>
+                </section>
+                <section id="description">
+                  <h2 class="text-2xl font-bold text-[#111418] mb-4 flex items-center gap-2">
+                    <span class="text-primary/40">02.</span> Description of Service
+                  </h2>
+                  <p class="mb-4">
+                    Tab Limiter provides tools for managing browser tab counts and improving
+                    productivity. Features include but are not limited to:
+                  </p>
+                  <div class="grid gap-4 md:grid-cols-2 mt-6">
+                    <div class="p-5 rounded-xl border border-primary/10 bg-primary/5">
+                      <h4 class="font-bold text-[#111418] mb-2 flex items-center gap-2">
+                        <span class="material-symbols-outlined text-primary">timer</span> Automatic
+                        Closing
+                      </h4>
+                      <p class="text-sm">
+                        Automated management of surplus tabs based on user-defined limits.
+                      </p>
+                    </div>
+                    <div class="p-5 rounded-xl border border-primary/10 bg-primary/5">
+                      <h4 class="font-bold text-[#111418] mb-2 flex items-center gap-2">
+                        <span class="material-symbols-outlined text-primary">verified_user</span>
+                        Whitelisting
+                      </h4>
+                      <p class="text-sm">
+                        User-controlled domain exclusions to prevent closing of important pages.
+                      </p>
+                    </div>
+                  </div>
+                </section>
+                <section id="conduct">
+                  <h2 class="text-2xl font-bold text-[#111418] mb-4 flex items-center gap-2">
+                    <span class="text-primary/40">03.</span> User Conduct
+                  </h2>
+                  <p class="mb-4">
+                    You are responsible for your own use of the Service and for any consequences
+                    thereof. You agree to use the Service only for purposes that are legal, proper
+                    and in accordance with these Terms.
+                  </p>
+                  <ul class="space-y-4 ml-2">
+                    <li class="flex gap-4">
+                      <span class="material-symbols-outlined text-primary mt-1">error</span>
+                      <div>
+                        <strong class="text-[#111418]">No Malicious Use:</strong> You may not use
+                        the Service to disrupt browser stability or engage in any behavior that
+                        negatively impacts other users.
+                      </div>
+                    </li>
+                    <li class="flex gap-4">
+                      <span class="material-symbols-outlined text-primary mt-1">error</span>
+                      <div>
+                        <strong class="text-[#111418]">No Reverse Engineering:</strong> You agree
+                        not to decompile, reverse engineer, or attempt to derive the source code of
+                        the extension.
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+                <section id="intellectual-property">
+                  <h2 class="text-2xl font-bold text-[#111418] mb-4 flex items-center gap-2">
+                    <span class="text-primary/40">04.</span> Intellectual Property
+                  </h2>
+                  <p>
+                    The Service, including its original content, features, and functionality, are
+                    and will remain the exclusive property of Tab Limiter and its licensors. Our
+                    trademarks and trade dress may not be used in connection with any product or
+                    service without the prior written consent of Tab Limiter.
+                  </p>
+                </section>
+                <section class="bg-primary/5 p-8 rounded-2xl border border-primary/20" id="contact">
+                  <h2 class="text-2xl font-bold text-[#111418] mb-4">Questions?</h2>
+                  <p class="mb-6">
+                    If you have any questions about these Terms of Service or our legal practices,
+                    please reach out to our team.
+                  </p>
+                  <div class="flex flex-col sm:flex-row gap-4">
+                    <button
+                      class="flex items-center justify-center gap-2 bg-[#111418] text-white px-6 py-3 rounded-lg font-bold hover:bg-black transition-all"
+                    >
+                      <span class="material-symbols-outlined text-sm">mail</span>
+                      Email Legal Team
+                    </button>
+                    <button
+                      class="flex items-center justify-center gap-2 bg-white border border-slate-200 text-[#111418] px-6 py-3 rounded-lg font-bold hover:bg-slate-50 transition-all"
+                    >
+                      <span class="material-symbols-outlined text-sm">support_agent</span>
+                      Contact Support
+                    </button>
+                  </div>
+                </section>
+              </div>
+              <div
+                class="mt-24 pt-8 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-slate-400"
+              >
+                <p>© 2023 Tab Limiter Extension. All rights reserved.</p>
+                <div class="flex gap-6">
+                  <a class="hover:text-primary transition-colors" href="#">Twitter</a>
+                  <a class="hover:text-primary transition-colors" href="#">GitHub</a>
+                  <a class="hover:text-primary transition-colors" href="#">LinkedIn</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

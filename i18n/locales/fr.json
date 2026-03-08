@@ -192,5 +192,60 @@
       "primaryButton": "Contacter l’équipe juridique",
       "secondaryButton": "Contacter le support"
     }
+  },
+  "terms": {
+    "header": {
+      "badge": "DERNIÈRE MISE À JOUR : 12 NOVEMBRE 2023",
+      "title": "Conditions d'utilisation",
+      "description": "Veuillez lire attentivement ces conditions avant d'utiliser Tab Limiter."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "Acceptation des conditions",
+        "content": "En accédant ou en utilisant l’extension Tab Limiter, vous acceptez ces conditions d’utilisation.",
+        "items": {
+          "agreement": "L’accord s’applique à tous les utilisateurs de l’extension.",
+          "updates": "L’utilisation continue constitue l’acceptation des futures mises à jour."
+        }
+      },
+      "description": {
+        "title": "Description du service",
+        "intro": "Tab Limiter fournit des outils pour gérer les onglets du navigateur.",
+        "features": {
+          "autoClosing": {
+            "title": "Fermeture automatique",
+            "description": "Gestion automatique des onglets excédentaires."
+          },
+          "whitelisting": {
+            "title": "Liste blanche",
+            "description": "Exclusions de domaines contrôlées par l’utilisateur."
+          }
+        }
+      },
+      "conduct": {
+        "title": "Conduite de l'utilisateur",
+        "intro": "Vous êtes responsable de votre utilisation du service.",
+        "items": {
+          "malicious": {
+            "title": "Pas d'utilisation malveillante :",
+            "description": " Vous ne devez pas perturber la stabilité du navigateur."
+          },
+          "reverseEngineering": {
+            "title": "Pas d’ingénierie inverse :",
+            "description": " Vous ne devez pas tenter d’extraire le code source."
+          }
+        }
+      },
+      "intellectualProperty": {
+        "title": "Propriété intellectuelle",
+        "content": "Le service reste la propriété exclusive de Tab Limiter."
+      }
+    },
+    "contact": {
+      "title": "Questions ?",
+      "description": "Si vous avez des questions, contactez notre équipe.",
+      "primaryButton": "Contacter l’équipe juridique",
+      "secondaryButton": "Contacter le support"
+    }
   }
 }

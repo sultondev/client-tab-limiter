@@ -191,5 +191,60 @@
       "primaryButton": "Huquqiy jamoaga yozish",
       "secondaryButton": "Texnik yordam"
     }
+  },
+  "terms": {
+    "header": {
+      "badge": "OXIRGI YANGILANISH: 12 NOYABR, 2023",
+      "title": "Foydalanish Shartlari",
+      "description": "Tab Limiter’dan foydalanishdan oldin ushbu shartlarni diqqat bilan o‘qing. Kengaytmani o‘rnatish va undan foydalanish orqali siz ushbu shartlarga rozilik bildirasiz."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "Shartlarni Qabul Qilish",
+        "content": "Tab Limiter kengaytmasidan (“Xizmat”) foydalanish orqali siz ushbu Foydalanish Shartlari va tegishli qonun va qoidalarga rioya qilishga rozilik bildirasiz. Agar ushbu shartlarning birortasiga rozi bo‘lmasangiz, ushbu Xizmatdan foydalanishingiz taqiqlanadi.",
+        "items": {
+          "agreement": "Ushbu kelishuv brauzer kengaytmasining barcha foydalanuvchilariga tegishli.",
+          "updates": "Xizmatdan foydalanishni davom ettirish ushbu shartlarning kelajakdagi yangilanishlarini qabul qilganingizni bildiradi."
+        }
+      },
+      "description": {
+        "title": "Xizmat Tavsifi",
+        "intro": "Tab Limiter brauzer tablari sonini boshqarish va unumdorlikni oshirish uchun vositalarni taqdim etadi. Funksiyalar quyidagilarni o‘z ichiga oladi, lekin ular bilan cheklanmaydi:",
+        "features": {
+          "autoClosing": {
+            "title": "Avtomatik Yopish",
+            "description": "Foydalanuvchi belgilagan limitlarga asoslanib ortiqcha tablarni avtomatik boshqarish."
+          },
+          "whitelisting": {
+            "title": "Oq Ro‘yxat",
+            "description": "Muhim sahifalar yopilmasligi uchun foydalanuvchi tomonidan boshqariladigan domen istisnolari."
+          }
+        }
+      },
+      "conduct": {
+        "title": "Foydalanuvchi Xulq-atvori",
+        "intro": "Xizmatdan foydalanish va uning oqibatlari uchun siz javobgarsiz. Siz Xizmatdan faqat qonuniy va ushbu Shartlarga mos maqsadlarda foydalanishga rozilik bildirasiz.",
+        "items": {
+          "malicious": {
+            "title": "Zararli foydalanish taqiqlanadi:",
+            "description": " Siz Xizmatdan brauzer barqarorligini buzish yoki boshqa foydalanuvchilarga salbiy ta’sir ko‘rsatadigan harakatlar uchun foydalana olmaysiz."
+          },
+          "reverseEngineering": {
+            "title": "Reverse Engineering taqiqlanadi:",
+            "description": " Siz kengaytmaning manba kodini dekompilyatsiya qilish, teskari muhandislik qilish yoki uni aniqlashga urinishga rozi emassiz."
+          }
+        }
+      },
+      "intellectualProperty": {
+        "title": "Intellektual Mulk",
+        "content": "Xizmat, jumladan uning original kontenti, funksiyalari va imkoniyatlari Tab Limiter va uning litsenziya beruvchilarining eksklyuziv mulki bo‘lib qoladi. Bizning savdo belgilarimiz yozma ruxsatsiz boshqa mahsulot yoki xizmat bilan bog‘liq holda ishlatilishi mumkin emas."
+      }
+    },
+    "contact": {
+      "title": "Savollar bormi?",
+      "description": "Agar ushbu Foydalanish Shartlari yoki huquqiy amaliyotimiz haqida savollaringiz bo‘lsa, jamoamiz bilan bog‘laning.",
+      "primaryButton": "Huquqiy Jamoaga Email",
+      "secondaryButton": "Qo‘llab-quvvatlash bilan bog‘lanish"
+    }
   }
 }

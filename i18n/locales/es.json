@@ -186,5 +186,60 @@
       "primaryButton": "Enviar correo al equipo legal",
       "secondaryButton": "Contactar soporte"
     }
+  },
+  "terms": {
+    "header": {
+      "badge": "ÚLTIMA ACTUALIZACIÓN: 12 DE NOVIEMBRE DE 2023",
+      "title": "Términos de servicio",
+      "description": "Lea estos términos cuidadosamente antes de usar Tab Limiter."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "Aceptación de los términos",
+        "content": "Al usar la extensión Tab Limiter, acepta estos términos.",
+        "items": {
+          "agreement": "El acuerdo se aplica a todos los usuarios.",
+          "updates": "El uso continuo implica aceptación de futuras actualizaciones."
+        }
+      },
+      "description": {
+        "title": "Descripción del servicio",
+        "intro": "Tab Limiter ofrece herramientas para gestionar pestañas del navegador.",
+        "features": {
+          "autoClosing": {
+            "title": "Cierre automático",
+            "description": "Gestión automática de pestañas excedentes."
+          },
+          "whitelisting": {
+            "title": "Lista blanca",
+            "description": "Exclusiones de dominios controladas por el usuario."
+          }
+        }
+      },
+      "conduct": {
+        "title": "Conducta del usuario",
+        "intro": "Usted es responsable del uso del servicio.",
+        "items": {
+          "malicious": {
+            "title": "Sin uso malicioso:",
+            "description": " No debe afectar la estabilidad del navegador."
+          },
+          "reverseEngineering": {
+            "title": "Sin ingeniería inversa:",
+            "description": " No debe intentar obtener el código fuente."
+          }
+        }
+      },
+      "intellectualProperty": {
+        "title": "Propiedad intelectual",
+        "content": "El servicio sigue siendo propiedad exclusiva de Tab Limiter."
+      }
+    },
+    "contact": {
+      "title": "¿Preguntas?",
+      "description": "Si tiene preguntas, contáctenos.",
+      "primaryButton": "Contactar equipo legal",
+      "secondaryButton": "Contactar soporte"
+    }
   }
 }

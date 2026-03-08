@@ -191,5 +191,60 @@
       "primaryButton": "Rechtsteam kontaktieren",
       "secondaryButton": "Support kontaktieren"
     }
+  },
+  "terms": {
+    "header": {
+      "badge": "ZULETZT AKTUALISIERT: 12. NOVEMBER 2023",
+      "title": "Nutzungsbedingungen",
+      "description": "Bitte lesen Sie diese Bedingungen sorgfältig, bevor Sie Tab Limiter verwenden. Durch die Installation und Nutzung unserer Erweiterung erklären Sie sich mit diesen Bedingungen einverstanden."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "Akzeptanz der Bedingungen",
+        "content": "Durch den Zugriff oder die Nutzung der Tab Limiter Erweiterung („Dienst“) erklären Sie sich mit diesen Nutzungsbedingungen sowie allen geltenden Gesetzen und Vorschriften einverstanden. Wenn Sie mit einem Teil dieser Bedingungen nicht einverstanden sind, dürfen Sie diesen Dienst nicht verwenden.",
+        "items": {
+          "agreement": "Die Vereinbarung gilt für alle Nutzer der Browser-Erweiterung.",
+          "updates": "Die weitere Nutzung gilt als Zustimmung zu zukünftigen Änderungen dieser Bedingungen."
+        }
+      },
+      "description": {
+        "title": "Beschreibung des Dienstes",
+        "intro": "Tab Limiter stellt Tools zur Verwaltung der Anzahl von Browser-Tabs und zur Verbesserung der Produktivität bereit. Funktionen umfassen unter anderem:",
+        "features": {
+          "autoClosing": {
+            "title": "Automatisches Schließen",
+            "description": "Automatische Verwaltung überzähliger Tabs basierend auf benutzerdefinierten Limits."
+          },
+          "whitelisting": {
+            "title": "Whitelist",
+            "description": "Vom Benutzer gesteuerte Domain-Ausnahmen, um wichtige Seiten vor dem Schließen zu schützen."
+          }
+        }
+      },
+      "conduct": {
+        "title": "Nutzerverhalten",
+        "intro": "Sie sind für Ihre Nutzung des Dienstes und alle daraus resultierenden Konsequenzen verantwortlich. Sie verpflichten sich, den Dienst nur für rechtmäßige Zwecke zu verwenden.",
+        "items": {
+          "malicious": {
+            "title": "Keine missbräuchliche Nutzung:",
+            "description": " Sie dürfen den Dienst nicht verwenden, um die Stabilität des Browsers zu beeinträchtigen oder andere Nutzer negativ zu beeinflussen."
+          },
+          "reverseEngineering": {
+            "title": "Kein Reverse Engineering:",
+            "description": " Sie verpflichten sich, den Quellcode der Erweiterung nicht zu dekompilieren oder zu analysieren."
+          }
+        }
+      },
+      "intellectualProperty": {
+        "title": "Geistiges Eigentum",
+        "content": "Der Dienst sowie seine Inhalte, Funktionen und Eigenschaften bleiben das ausschließliche Eigentum von Tab Limiter und seinen Lizenzgebern."
+      }
+    },
+    "contact": {
+      "title": "Fragen?",
+      "description": "Wenn Sie Fragen zu diesen Nutzungsbedingungen oder unseren rechtlichen Praktiken haben, kontaktieren Sie bitte unser Team.",
+      "primaryButton": "E-Mail an das Rechtsteam",
+      "secondaryButton": "Support kontaktieren"
+    }
   }
 }

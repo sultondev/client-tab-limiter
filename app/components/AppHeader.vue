@@ -25,12 +25,12 @@
         >
           {{ t('nav.features') }}
         </NuxtLinkLocale>
-        <a
+        <!-- <a
           class="text-sm cursor-pointer font-semibold text-[#617589] hover:text-primary transition-colors"
           href="#how-it-works"
         >
           {{ t('nav.howItWorks') }}
-        </a>
+        </a> -->
         <NuxtLinkLocale
           class="text-sm cursor-pointer font-semibold text-[#617589] hover:text-primary transition-colors"
           to="/privacy"
